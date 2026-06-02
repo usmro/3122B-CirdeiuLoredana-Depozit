@@ -61,7 +61,9 @@ int main() {
         std::cout << "  \033[36m|\033[0m  [\033[92m3\033[0m] Inregistreaza Vanzare (Iesire stoc)\n";
         std::cout << "  \033[36m|\033[0m  [\033[92m4\033[0m] Inregistreaza Restock (Intrare stoc)\n";
         std::cout << "  \033[36m|\033[0m  [\033[92m5\033[0m] Vizualizare istoric tranzactii\n";
-        std::cout << "  \033[36m|\033[0m  [\033[92m6\033[0m] Cautare produs dupa nume (partial)\n"; // Am scos ț-ul ca să nu dea caractere ciudate
+        std::cout << "  \033[36m|\033[0m  [\033[92m6\033[0m] Cautare produs dupa nume (partial)\n";
+        std::cout << "  \033[36m|\033[0m  [\033[95m7\033[0m] Vizualizare statistici financiare globale\n"; // Opțiune nouă 1
+        std::cout << "  \033[36m|\033[0m  [\033[95m8\033[0m] Export raport managerial in format HTML\n"; // Opțiune nouă 2
         std::cout << "  \033[36m|----------------------------------------------------------|\033[0m\n";
         std::cout << "  \033[36m|\033[0m  [\033[91m0\033[0m] Salvare date si Iesire securizata\n";
         std::cout << "\033[36m============================================================\033[0m\n";
@@ -102,6 +104,15 @@ int main() {
             }
             else if (opt == 5) {
                 d.afiseazaTranzactii();
+            }
+            else if (opt == 7) {
+                d.afiseazaStatistici();
+            }
+            else if (opt == 8) {
+                std::string fisierRaport = "data/raport_stocuri.html";
+                d.exportaRaportHTML(fisierRaport);
+                std::cout << "\033[32m\033[1m[SUCCES] Raportul HTML a fost generat in: " << fisierRaport << "\033[0m\n";
+                std::cout << "[INFO] Puteti deschide fisierul direct in Google Chrome / Microsoft Edge pentru a-l vizualiza.\n";
             }
             else if (opt != 0) {
                 std::cout << RED << "\n[ATENTIE] Opțiune inexistenta in meniu!\n" << RESET;

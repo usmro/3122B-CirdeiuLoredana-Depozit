@@ -1,0 +1,3235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>Raport Managerial Stocuri</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 30px; background-color: #f8f9fa; color: #333; }
+  h1 { color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px; }
+  .meta { font-size: 14px; color: #7f8c8d; margin-bottom: 20px; }
+  table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-radius: 5px; overflow: hidden; }
+  th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #edf2f7; }
+  th { background-color: #34495e; color: white; font-weight: 600; }
+  tr:nth-child(even) { background-color: #f8f9fa; }
+  tr:hover { background-color: #f1f3f5; }
+  .status-ok { color: #27ae60; font-weight: bold; }
+  .status-alert { background-color: #fee2e2 !important; color: #dc2626; font-weight: bold; }
+  .badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+  .badge-red { background: #fecaca; color: #991b1b; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+</style>
+</head>
+<body>
+<h1>Raport de Audit Imobiliar & Stocuri Depozit</h1>
+<div class='meta'>Generat automat de SistemDepozit v1.2 | Sesiune securizata</div>
+<table>
+<thead>
+<tr>
+  <th>ID</th><th>Denumire Produs</th><th>Stoc Curent</th><th>Pret Unitar</th><th>Prag Minim</th><th>Status Stoc</th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Placa Video ASUS V1</td>
+    <td>142 unitati</td>
+    <td>640.83 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>393</td>
+    <td>Stick USB AMD V8</td>
+    <td>12 unitati</td>
+    <td>774.16 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Mouse Kingston V9</td>
+    <td>23 unitati</td>
+    <td>148.64 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>3</td>
+    <td>Casti Corsair V9</td>
+    <td>7 unitati</td>
+    <td>3226.35 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>387</td>
+    <td>Casti Gigabyte V6</td>
+    <td>267 unitati</td>
+    <td>2408.42 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Sursa PC Gigabyte V7</td>
+    <td>154 unitati</td>
+    <td>3645.3 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Tastatura HP V3</td>
+    <td>169 unitati</td>
+    <td>712.33 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>397</td>
+    <td>SSD Samsung V1</td>
+    <td>271 unitati</td>
+    <td>2971.89 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Router Wi-Fi Samsung V2</td>
+    <td>190 unitati</td>
+    <td>3816.01 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Cooler HyperX V1</td>
+    <td>91 unitati</td>
+    <td>4379.42 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Incarcator ASUS V9</td>
+    <td>199 unitati</td>
+    <td>2604.42 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>9</td>
+    <td>Sursa PC ASUS V1</td>
+    <td>10 unitati</td>
+    <td>4433.72 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Stick USB Corsair V2</td>
+    <td>203 unitati</td>
+    <td>744.5 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Laptop Corsair V5</td>
+    <td>63 unitati</td>
+    <td>2746.95 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>395</td>
+    <td>Tastatura Gigabyte V1</td>
+    <td>55 unitati</td>
+    <td>3443.06 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Monitor Gigabyte V4</td>
+    <td>148 unitati</td>
+    <td>4453.01 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Placa Video Lenovo V9</td>
+    <td>40 unitati</td>
+    <td>1042.28 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Tastatura HP V6</td>
+    <td>125 unitati</td>
+    <td>4110.42 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Cooler Sony V6</td>
+    <td>213 unitati</td>
+    <td>3982.8 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>16</td>
+    <td>Placa Video AMD V3</td>
+    <td>12 unitati</td>
+    <td>2532.74 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Cablu HDMI Lenovo V7</td>
+    <td>218 unitati</td>
+    <td>998.65 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Monitor Gigabyte V8</td>
+    <td>63 unitati</td>
+    <td>700.49 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>19</td>
+    <td>Monitor HP V7</td>
+    <td>13 unitati</td>
+    <td>2687.56 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>SSD Gigabyte V5</td>
+    <td>27 unitati</td>
+    <td>3066.07 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Mouse Kingston V9</td>
+    <td>203 unitati</td>
+    <td>515.31 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Incarcator Razer V8</td>
+    <td>139 unitati</td>
+    <td>4373.92 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>23</td>
+    <td>Router Wi-Fi Razer V9</td>
+    <td>20 unitati</td>
+    <td>3789.89 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>RAM TP-Link V4</td>
+    <td>91 unitati</td>
+    <td>2434.11 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>25</td>
+    <td>Router Wi-Fi Sony V9</td>
+    <td>21 unitati</td>
+    <td>2206.4 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Mouse Sony V6</td>
+    <td>190 unitati</td>
+    <td>1088.94 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Casti Sony V2</td>
+    <td>42 unitati</td>
+    <td>4401.26 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>RAM HP V3</td>
+    <td>290 unitati</td>
+    <td>755.59 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>29</td>
+    <td>RAM Dell V7</td>
+    <td>13 unitati</td>
+    <td>3212.58 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Incarcator Kingston V6</td>
+    <td>250 unitati</td>
+    <td>557.7 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Casti ASUS V6</td>
+    <td>122 unitati</td>
+    <td>2654.15 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>32</td>
+    <td>Tastatura ASUS V1</td>
+    <td>1 unitati</td>
+    <td>3870.46 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>Mouse Gigabyte V4</td>
+    <td>122 unitati</td>
+    <td>2433.46 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>Sursa PC Sony V8</td>
+    <td>220 unitati</td>
+    <td>868.99 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>Mouse Kingston V7</td>
+    <td>255 unitati</td>
+    <td>3889.31 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Tastatura Kingston V2</td>
+    <td>179 unitati</td>
+    <td>3605.66 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>Mouse Corsair V4</td>
+    <td>82 unitati</td>
+    <td>1907.14 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>Cablu HDMI AMD V4</td>
+    <td>258 unitati</td>
+    <td>3638.98 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>Stick USB Gigabyte V2</td>
+    <td>282 unitati</td>
+    <td>3764.58 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>Mouse Sony V4</td>
+    <td>256 unitati</td>
+    <td>973.66 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>Incarcator Sony V1</td>
+    <td>209 unitati</td>
+    <td>1204.44 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Router Wi-Fi HP V8</td>
+    <td>298 unitati</td>
+    <td>2983.49 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>43</td>
+    <td>SSD Razer V4</td>
+    <td>1 unitati</td>
+    <td>2612.62 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>44</td>
+    <td>RAM Logitech V6</td>
+    <td>4 unitati</td>
+    <td>2270.28 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>Stick USB Gigabyte V3</td>
+    <td>47 unitati</td>
+    <td>3833.27 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>46</td>
+    <td>Mouse TP-Link V2</td>
+    <td>232 unitati</td>
+    <td>552.69 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td>Hard Disk Extern TP-Link V4</td>
+    <td>64 unitati</td>
+    <td>1895.22 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td>Cooler TP-Link V9</td>
+    <td>119 unitati</td>
+    <td>3018.72 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>49</td>
+    <td>Laptop Corsair V5</td>
+    <td>10 unitati</td>
+    <td>2065.65 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>Hard Disk Extern HP V2</td>
+    <td>293 unitati</td>
+    <td>4482.49 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>51</td>
+    <td>Mouse Gigabyte V4</td>
+    <td>199 unitati</td>
+    <td>3965.68 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>52</td>
+    <td>Hard Disk Extern Corsair V6</td>
+    <td>9 unitati</td>
+    <td>3170.38 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td>Cooler HP V9</td>
+    <td>288 unitati</td>
+    <td>1357.71 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>54</td>
+    <td>Placa Video ASUS V3</td>
+    <td>2 unitati</td>
+    <td>3344.74 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>55</td>
+    <td>Monitor HyperX V5</td>
+    <td>11 unitati</td>
+    <td>928.13 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>391</td>
+    <td>Cooler TP-Link V7</td>
+    <td>6 unitati</td>
+    <td>1046.63 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>56</td>
+    <td>Placa Video Dell V5</td>
+    <td>47 unitati</td>
+    <td>428.96 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>57</td>
+    <td>Incarcator Dell V5</td>
+    <td>2 unitati</td>
+    <td>2872.45 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>385</td>
+    <td>Hard Disk Extern Logitech V4</td>
+    <td>8 unitati</td>
+    <td>3364.75 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td>Cablu HDMI Razer V8</td>
+    <td>26 unitati</td>
+    <td>516.75 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>59</td>
+    <td>Hard Disk Extern Lenovo V3</td>
+    <td>12 unitati</td>
+    <td>2627.56 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>Monitor Intel V3</td>
+    <td>26 unitati</td>
+    <td>4046.68 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>61</td>
+    <td>Casti Kingston V4</td>
+    <td>25 unitati</td>
+    <td>2526.08 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>389</td>
+    <td>Router Wi-Fi Lenovo V8</td>
+    <td>133 unitati</td>
+    <td>1677.61 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>62</td>
+    <td>Stick USB Intel V3</td>
+    <td>117 unitati</td>
+    <td>4393.28 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>63</td>
+    <td>Router Wi-Fi Razer V7</td>
+    <td>3 unitati</td>
+    <td>3524 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>64</td>
+    <td>Incarcator HP V4</td>
+    <td>12 unitati</td>
+    <td>499.81 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>65</td>
+    <td>Stick USB Logitech V8</td>
+    <td>8 unitati</td>
+    <td>1583.22 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>66</td>
+    <td>Stick USB HP V4</td>
+    <td>4 unitati</td>
+    <td>1802.12 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>67</td>
+    <td>Cablu HDMI Dell V2</td>
+    <td>214 unitati</td>
+    <td>2892.05 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>68</td>
+    <td>Incarcator Kingston V9</td>
+    <td>74 unitati</td>
+    <td>3948.52 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>69</td>
+    <td>Cablu HDMI Razer V5</td>
+    <td>4 unitati</td>
+    <td>1565.41 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>70</td>
+    <td>Router Wi-Fi Samsung V7</td>
+    <td>83 unitati</td>
+    <td>1742.6 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td>Cooler Corsair V5</td>
+    <td>6 unitati</td>
+    <td>2346.84 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>72</td>
+    <td>Router Wi-Fi Gigabyte V4</td>
+    <td>185 unitati</td>
+    <td>2809.85 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>73</td>
+    <td>Placa Video Dell V2</td>
+    <td>287 unitati</td>
+    <td>1402.14 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>74</td>
+    <td>Incarcator Samsung V7</td>
+    <td>92 unitati</td>
+    <td>875.4 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td>Placa Video Intel V3</td>
+    <td>231 unitati</td>
+    <td>2472.5 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>76</td>
+    <td>Tastatura HyperX V5</td>
+    <td>175 unitati</td>
+    <td>2100.47 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>77</td>
+    <td>SSD Kingston V4</td>
+    <td>107 unitati</td>
+    <td>2969.95 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>78</td>
+    <td>Cablu HDMI Gigabyte V6</td>
+    <td>127 unitati</td>
+    <td>3032.49 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>79</td>
+    <td>Casti HP V4</td>
+    <td>4 unitati</td>
+    <td>4427.95 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>80</td>
+    <td>Cooler Dell V2</td>
+    <td>118 unitati</td>
+    <td>3236.78 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>81</td>
+    <td>Incarcator AMD V7</td>
+    <td>1 unitati</td>
+    <td>4018.58 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>82</td>
+    <td>Stick USB HP V2</td>
+    <td>119 unitati</td>
+    <td>3621.43 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>83</td>
+    <td>Sursa PC Gigabyte V8</td>
+    <td>68 unitati</td>
+    <td>2062.23 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>84</td>
+    <td>Router Wi-Fi AMD V9</td>
+    <td>248 unitati</td>
+    <td>2762.75 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>85</td>
+    <td>Sursa PC Sony V9</td>
+    <td>298 unitati</td>
+    <td>2014.92 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>86</td>
+    <td>Monitor Lenovo V8</td>
+    <td>145 unitati</td>
+    <td>3781.79 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>87</td>
+    <td>Cablu HDMI HP V9</td>
+    <td>160 unitati</td>
+    <td>1987.83 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>Sursa PC HyperX V4</td>
+    <td>289 unitati</td>
+    <td>376.39 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>89</td>
+    <td>Monitor Corsair V7</td>
+    <td>7 unitati</td>
+    <td>303.07 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>90</td>
+    <td>Incarcator Samsung V9</td>
+    <td>124 unitati</td>
+    <td>3750.52 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>91</td>
+    <td>Incarcator Sony V1</td>
+    <td>226 unitati</td>
+    <td>2154.25 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>92</td>
+    <td>Laptop HyperX V7</td>
+    <td>246 unitati</td>
+    <td>2428.92 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>93</td>
+    <td>Sursa PC Gigabyte V4</td>
+    <td>14 unitati</td>
+    <td>2193.1 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>94</td>
+    <td>Incarcator Samsung V7</td>
+    <td>15 unitati</td>
+    <td>4139.14 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>95</td>
+    <td>Cooler Gigabyte V1</td>
+    <td>47 unitati</td>
+    <td>391.5 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>96</td>
+    <td>Incarcator Razer V8</td>
+    <td>7 unitati</td>
+    <td>1483.18 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>97</td>
+    <td>SSD Samsung V6</td>
+    <td>171 unitati</td>
+    <td>3387.76 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>98</td>
+    <td>Stick USB Intel V5</td>
+    <td>1 unitati</td>
+    <td>3374.37 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>99</td>
+    <td>Tastatura Samsung V4</td>
+    <td>21 unitati</td>
+    <td>195.56 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>100</td>
+    <td>Tastatura Corsair V4</td>
+    <td>5 unitati</td>
+    <td>1084.87 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>SSD Kingston V2</td>
+    <td>261 unitati</td>
+    <td>3152.1 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>102</td>
+    <td>Router Wi-Fi Samsung V3</td>
+    <td>82 unitati</td>
+    <td>3503.4 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>103</td>
+    <td>Monitor HyperX V2</td>
+    <td>10 unitati</td>
+    <td>2597.45 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>104</td>
+    <td>Hard Disk Extern Intel V7</td>
+    <td>73 unitati</td>
+    <td>2670.56 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>105</td>
+    <td>Stick USB Kingston V4</td>
+    <td>162 unitati</td>
+    <td>3828.57 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>106</td>
+    <td>Cooler HP V2</td>
+    <td>51 unitati</td>
+    <td>1572.21 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>107</td>
+    <td>Incarcator Kingston V6</td>
+    <td>181 unitati</td>
+    <td>71.74 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>108</td>
+    <td>Incarcator Dell V8</td>
+    <td>193 unitati</td>
+    <td>2865.6 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>109</td>
+    <td>Stick USB AMD V3</td>
+    <td>17 unitati</td>
+    <td>4345.15 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>110</td>
+    <td>Cablu HDMI TP-Link V9</td>
+    <td>252 unitati</td>
+    <td>3718.42 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>111</td>
+    <td>Cooler HyperX V6</td>
+    <td>30 unitati</td>
+    <td>403.68 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>112</td>
+    <td>Hard Disk Extern AMD V4</td>
+    <td>223 unitati</td>
+    <td>1523.74 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>113</td>
+    <td>SSD Dell V6</td>
+    <td>191 unitati</td>
+    <td>3593.28 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>114</td>
+    <td>Laptop HyperX V5</td>
+    <td>7 unitati</td>
+    <td>398.97 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>115</td>
+    <td>Sursa PC Intel V8</td>
+    <td>265 unitati</td>
+    <td>2911.87 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>116</td>
+    <td>SSD AMD V1</td>
+    <td>214 unitati</td>
+    <td>3117.67 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>117</td>
+    <td>Cablu HDMI Kingston V6</td>
+    <td>196 unitati</td>
+    <td>1923.38 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>118</td>
+    <td>Sursa PC Gigabyte V6</td>
+    <td>154 unitati</td>
+    <td>1390.2 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>119</td>
+    <td>Casti ASUS V4</td>
+    <td>9 unitati</td>
+    <td>4279.69 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>120</td>
+    <td>Sursa PC Razer V4</td>
+    <td>152 unitati</td>
+    <td>3264.76 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>121</td>
+    <td>Router Wi-Fi Gigabyte V5</td>
+    <td>159 unitati</td>
+    <td>1035.26 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>122</td>
+    <td>Monitor HyperX V1</td>
+    <td>167 unitati</td>
+    <td>219.14 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>123</td>
+    <td>Tastatura Gigabyte V5</td>
+    <td>278 unitati</td>
+    <td>475.11 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>124</td>
+    <td>Tastatura TP-Link V5</td>
+    <td>194 unitati</td>
+    <td>841.87 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>125</td>
+    <td>Tastatura HyperX V8</td>
+    <td>213 unitati</td>
+    <td>2220.48 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>126</td>
+    <td>Cooler Kingston V1</td>
+    <td>5 unitati</td>
+    <td>397.04 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>127</td>
+    <td>Casti ASUS V9</td>
+    <td>144 unitati</td>
+    <td>3493.99 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>128</td>
+    <td>Incarcator AMD V8</td>
+    <td>233 unitati</td>
+    <td>1384.63 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>314</td>
+    <td>Tastatura Dell V2</td>
+    <td>9 unitati</td>
+    <td>3277.87 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>129</td>
+    <td>Cooler Logitech V2</td>
+    <td>143 unitati</td>
+    <td>1201.94 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>130</td>
+    <td>Mouse Razer V4</td>
+    <td>90 unitati</td>
+    <td>27 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>260</td>
+    <td>Monitor Logitech V5</td>
+    <td>105 unitati</td>
+    <td>3418.4 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>131</td>
+    <td>SSD Lenovo V8</td>
+    <td>5 unitati</td>
+    <td>3185.7 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>132</td>
+    <td>Sursa PC Dell V8</td>
+    <td>142 unitati</td>
+    <td>3548.41 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>318</td>
+    <td>Laptop Gigabyte V6</td>
+    <td>20 unitati</td>
+    <td>2298.41 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>133</td>
+    <td>Placa Video TP-Link V4</td>
+    <td>8 unitati</td>
+    <td>2919.64 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>134</td>
+    <td>Hard Disk Extern HyperX V3</td>
+    <td>3 unitati</td>
+    <td>2683.77 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>312</td>
+    <td>Mouse Intel V9</td>
+    <td>129 unitati</td>
+    <td>2631.3 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>135</td>
+    <td>Stick USB TP-Link V5</td>
+    <td>10 unitati</td>
+    <td>3153.31 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>136</td>
+    <td>Cablu HDMI Gigabyte V9</td>
+    <td>40 unitati</td>
+    <td>4004.06 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>258</td>
+    <td>Incarcator Logitech V7</td>
+    <td>218 unitati</td>
+    <td>4475.45 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>137</td>
+    <td>Sursa PC Samsung V5</td>
+    <td>1 unitati</td>
+    <td>4498.08 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>138</td>
+    <td>Placa Video Dell V5</td>
+    <td>6 unitati</td>
+    <td>2125.2 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>268</td>
+    <td>Incarcator Samsung V5</td>
+    <td>26 unitati</td>
+    <td>318 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>139</td>
+    <td>Placa Video AMD V5</td>
+    <td>233 unitati</td>
+    <td>2862.01 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>140</td>
+    <td>SSD ASUS V8</td>
+    <td>180 unitati</td>
+    <td>3020.55 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>262</td>
+    <td>Monitor Gigabyte V9</td>
+    <td>10 unitati</td>
+    <td>1080.82 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>141</td>
+    <td>Stick USB Razer V6</td>
+    <td>165 unitati</td>
+    <td>2986.69 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>142</td>
+    <td>Incarcator Dell V9</td>
+    <td>167 unitati</td>
+    <td>1147.01 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>256</td>
+    <td>Cablu HDMI ASUS V3</td>
+    <td>275 unitati</td>
+    <td>675.86 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>143</td>
+    <td>Mouse HP V7</td>
+    <td>32 unitati</td>
+    <td>2964.61 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>144</td>
+    <td>RAM AMD V7</td>
+    <td>3 unitati</td>
+    <td>2807.51 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>266</td>
+    <td>Incarcator Razer V2</td>
+    <td>55 unitati</td>
+    <td>4291.02 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>145</td>
+    <td>SSD Kingston V8</td>
+    <td>9 unitati</td>
+    <td>2478.25 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>146</td>
+    <td>Hard Disk Extern HyperX V8</td>
+    <td>95 unitati</td>
+    <td>144.48 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>276</td>
+    <td>Hard Disk Extern Intel V6</td>
+    <td>264 unitati</td>
+    <td>1662.55 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>147</td>
+    <td>Placa Video TP-Link V4</td>
+    <td>18 unitati</td>
+    <td>76.33 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>148</td>
+    <td>Incarcator ASUS V4</td>
+    <td>267 unitati</td>
+    <td>4262.57 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>270</td>
+    <td>Laptop Gigabyte V6</td>
+    <td>268 unitati</td>
+    <td>4413.97 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>149</td>
+    <td>Placa Video Dell V3</td>
+    <td>169 unitati</td>
+    <td>2297.29 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>150</td>
+    <td>Cablu HDMI Intel V8</td>
+    <td>18 unitati</td>
+    <td>663.72 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>264</td>
+    <td>Stick USB Sony V8</td>
+    <td>287 unitati</td>
+    <td>2594.09 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>151</td>
+    <td>Casti Sony V9</td>
+    <td>63 unitati</td>
+    <td>1253.97 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>152</td>
+    <td>Router Wi-Fi Dell V7</td>
+    <td>274 unitati</td>
+    <td>1213.27 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>274</td>
+    <td>Tastatura HP V4</td>
+    <td>38 unitati</td>
+    <td>3898.11 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>153</td>
+    <td>Tastatura HyperX V5</td>
+    <td>281 unitati</td>
+    <td>3895.69 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>154</td>
+    <td>SSD Gigabyte V8</td>
+    <td>294 unitati</td>
+    <td>1706.79 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>284</td>
+    <td>Placa Video AMD V6</td>
+    <td>55 unitati</td>
+    <td>2589.04 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>155</td>
+    <td>Hard Disk Extern Samsung V4</td>
+    <td>13 unitati</td>
+    <td>1062.53 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>156</td>
+    <td>Router Wi-Fi Intel V1</td>
+    <td>210 unitati</td>
+    <td>1746.56 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>278</td>
+    <td>Cooler Dell V3</td>
+    <td>74 unitati</td>
+    <td>374.11 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>157</td>
+    <td>Placa Video HP V3</td>
+    <td>84 unitati</td>
+    <td>2267.78 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>158</td>
+    <td>Cooler Samsung V2</td>
+    <td>83 unitati</td>
+    <td>2373.89 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>272</td>
+    <td>SSD Logitech V5</td>
+    <td>4 unitati</td>
+    <td>3987.77 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>159</td>
+    <td>SSD Logitech V3</td>
+    <td>97 unitati</td>
+    <td>350.6 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>160</td>
+    <td>Router Wi-Fi HyperX V6</td>
+    <td>65 unitati</td>
+    <td>3835.17 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>161</td>
+    <td>Stick USB Kingston V9</td>
+    <td>266 unitati</td>
+    <td>3927.64 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>162</td>
+    <td>Tastatura TP-Link V2</td>
+    <td>159 unitati</td>
+    <td>4488.46 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>292</td>
+    <td>Casti HP V3</td>
+    <td>25 unitati</td>
+    <td>1633.62 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>163</td>
+    <td>Sursa PC ASUS V7</td>
+    <td>59 unitati</td>
+    <td>2004.9 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>164</td>
+    <td>Sursa PC HyperX V1</td>
+    <td>34 unitati</td>
+    <td>1330.75 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>165</td>
+    <td>Laptop Intel V3</td>
+    <td>104 unitati</td>
+    <td>777.38 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>166</td>
+    <td>Mouse TP-Link V7</td>
+    <td>278 unitati</td>
+    <td>4109.04 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>167</td>
+    <td>Monitor Corsair V8</td>
+    <td>155 unitati</td>
+    <td>3005.78 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>168</td>
+    <td>Hard Disk Extern HP V8</td>
+    <td>113 unitati</td>
+    <td>346.27 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>290</td>
+    <td>Sursa PC ASUS V9</td>
+    <td>175 unitati</td>
+    <td>3833.36 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>169</td>
+    <td>Laptop TP-Link V5</td>
+    <td>153 unitati</td>
+    <td>2063.91 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>170</td>
+    <td>Cablu HDMI Corsair V7</td>
+    <td>153 unitati</td>
+    <td>1725.42 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>300</td>
+    <td>RAM HyperX V3</td>
+    <td>298 unitati</td>
+    <td>434.03 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>171</td>
+    <td>Laptop TP-Link V5</td>
+    <td>229 unitati</td>
+    <td>1246.04 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>172</td>
+    <td>Cooler Dell V1</td>
+    <td>288 unitati</td>
+    <td>3750.28 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>294</td>
+    <td>Mouse ASUS V5</td>
+    <td>262 unitati</td>
+    <td>2372.75 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>173</td>
+    <td>Hard Disk Extern HyperX V4</td>
+    <td>136 unitati</td>
+    <td>2870.23 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>174</td>
+    <td>Cooler HyperX V3</td>
+    <td>21 unitati</td>
+    <td>2913.84 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>288</td>
+    <td>SSD Corsair V2</td>
+    <td>240 unitati</td>
+    <td>789.36 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>175</td>
+    <td>Cablu HDMI HP V8</td>
+    <td>73 unitati</td>
+    <td>419.25 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>176</td>
+    <td>Cablu HDMI Samsung V7</td>
+    <td>9 unitati</td>
+    <td>3945.93 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>298</td>
+    <td>RAM Razer V5</td>
+    <td>4 unitati</td>
+    <td>1566.91 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>177</td>
+    <td>Laptop Gigabyte V9</td>
+    <td>118 unitati</td>
+    <td>1167.51 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>178</td>
+    <td>Stick USB AMD V5</td>
+    <td>86 unitati</td>
+    <td>2115.47 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>308</td>
+    <td>Mouse Samsung V4</td>
+    <td>15 unitati</td>
+    <td>1126.92 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>179</td>
+    <td>Mouse Razer V4</td>
+    <td>235 unitati</td>
+    <td>4353.2 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>180</td>
+    <td>Router Wi-Fi Gigabyte V6</td>
+    <td>14 unitati</td>
+    <td>1201.1 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>302</td>
+    <td>Cooler Logitech V1</td>
+    <td>6 unitati</td>
+    <td>3473.04 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>181</td>
+    <td>Mouse AMD V6</td>
+    <td>160 unitati</td>
+    <td>2636.75 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>182</td>
+    <td>Stick USB Kingston V6</td>
+    <td>249 unitati</td>
+    <td>127.24 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>296</td>
+    <td>Placa Video Gigabyte V6</td>
+    <td>291 unitati</td>
+    <td>2884.48 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>183</td>
+    <td>Hard Disk Extern Gigabyte V6</td>
+    <td>66 unitati</td>
+    <td>2864.79 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>184</td>
+    <td>SSD Sony V5</td>
+    <td>96 unitati</td>
+    <td>218.38 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>306</td>
+    <td>Incarcator AMD V8</td>
+    <td>84 unitati</td>
+    <td>1416.93 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>185</td>
+    <td>Tastatura HyperX V8</td>
+    <td>5 unitati</td>
+    <td>623.45 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>186</td>
+    <td>SSD Samsung V9</td>
+    <td>97 unitati</td>
+    <td>3986.08 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>316</td>
+    <td>Laptop Gigabyte V5</td>
+    <td>237 unitati</td>
+    <td>3443.35 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>187</td>
+    <td>Placa Video ASUS V8</td>
+    <td>167 unitati</td>
+    <td>161.73 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>188</td>
+    <td>Laptop Corsair V8</td>
+    <td>204 unitati</td>
+    <td>460.61 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>310</td>
+    <td>Stick USB Sony V3</td>
+    <td>191 unitati</td>
+    <td>866.41 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>189</td>
+    <td>Placa Video Samsung V9</td>
+    <td>216 unitati</td>
+    <td>286.57 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>190</td>
+    <td>Cablu HDMI Corsair V2</td>
+    <td>267 unitati</td>
+    <td>426.16 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>304</td>
+    <td>Placa Video Gigabyte V5</td>
+    <td>272 unitati</td>
+    <td>1113.28 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>191</td>
+    <td>Casti Kingston V1</td>
+    <td>130 unitati</td>
+    <td>4449.86 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>192</td>
+    <td>Router Wi-Fi TP-Link V4</td>
+    <td>290 unitati</td>
+    <td>944.1 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>378</td>
+    <td>Laptop Kingston V7</td>
+    <td>243 unitati</td>
+    <td>1846.04 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>193</td>
+    <td>Casti Dell V4</td>
+    <td>16 unitati</td>
+    <td>1258.58 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>194</td>
+    <td>Monitor Razer V9</td>
+    <td>69 unitati</td>
+    <td>2979.84 RON</td>
+    <td>13</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>324</td>
+    <td>Router Wi-Fi Sony V1</td>
+    <td>140 unitati</td>
+    <td>3250.48 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>195</td>
+    <td>Tastatura Razer V1</td>
+    <td>137 unitati</td>
+    <td>2656.01 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>196</td>
+    <td>Tastatura Razer V5</td>
+    <td>4 unitati</td>
+    <td>2374.49 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>382</td>
+    <td>Placa Video ASUS V8</td>
+    <td>129 unitati</td>
+    <td>246.14 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>197</td>
+    <td>Sursa PC ASUS V8</td>
+    <td>281 unitati</td>
+    <td>2677.59 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>198</td>
+    <td>SSD Gigabyte V4</td>
+    <td>189 unitati</td>
+    <td>2069.32 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>376</td>
+    <td>Hard Disk Extern Razer V9</td>
+    <td>152 unitati</td>
+    <td>288.4 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>199</td>
+    <td>Tastatura Logitech V8</td>
+    <td>87 unitati</td>
+    <td>2213.86 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>200</td>
+    <td>Hard Disk Extern AMD V2</td>
+    <td>10 unitati</td>
+    <td>309.58 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>322</td>
+    <td>RAM Dell V9</td>
+    <td>175 unitati</td>
+    <td>2144.89 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>201</td>
+    <td>Cablu HDMI TP-Link V9</td>
+    <td>298 unitati</td>
+    <td>1337.62 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>202</td>
+    <td>RAM TP-Link V7</td>
+    <td>66 unitati</td>
+    <td>3839.78 RON</td>
+    <td>8</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>332</td>
+    <td>Cablu HDMI Corsair V5</td>
+    <td>135 unitati</td>
+    <td>3110.73 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>203</td>
+    <td>Placa Video Sony V9</td>
+    <td>248 unitati</td>
+    <td>2040.22 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>204</td>
+    <td>Casti Intel V6</td>
+    <td>243 unitati</td>
+    <td>3287.31 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>326</td>
+    <td>Placa Video Corsair V1</td>
+    <td>79 unitati</td>
+    <td>870.67 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>205</td>
+    <td>Laptop Intel V6</td>
+    <td>104 unitati</td>
+    <td>3095.39 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>206</td>
+    <td>SSD ASUS V2</td>
+    <td>14 unitati</td>
+    <td>448.09 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>320</td>
+    <td>RAM AMD V3</td>
+    <td>95 unitati</td>
+    <td>1485.93 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>207</td>
+    <td>Sursa PC Samsung V3</td>
+    <td>18 unitati</td>
+    <td>2534.15 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>208</td>
+    <td>Placa Video ASUS V7</td>
+    <td>232 unitati</td>
+    <td>3908.39 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>330</td>
+    <td>Laptop Razer V8</td>
+    <td>215 unitati</td>
+    <td>3046.27 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>209</td>
+    <td>Sursa PC Logitech V5</td>
+    <td>77 unitati</td>
+    <td>2606.96 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>210</td>
+    <td>Casti Razer V8</td>
+    <td>191 unitati</td>
+    <td>3806.5 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>340</td>
+    <td>Router Wi-Fi Razer V1</td>
+    <td>115 unitati</td>
+    <td>1839.98 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>211</td>
+    <td>Laptop ASUS V5</td>
+    <td>14 unitati</td>
+    <td>3805.52 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>212</td>
+    <td>Router Wi-Fi Dell V9</td>
+    <td>141 unitati</td>
+    <td>144.86 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>334</td>
+    <td>Cooler Kingston V9</td>
+    <td>219 unitati</td>
+    <td>3685.42 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>213</td>
+    <td>Cablu HDMI Lenovo V5</td>
+    <td>37 unitati</td>
+    <td>828.6 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>214</td>
+    <td>Monitor TP-Link V7</td>
+    <td>6 unitati</td>
+    <td>4373.57 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>328</td>
+    <td>Router Wi-Fi TP-Link V8</td>
+    <td>63 unitati</td>
+    <td>3180.4 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>215</td>
+    <td>Mouse Lenovo V9</td>
+    <td>243 unitati</td>
+    <td>1543.92 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>216</td>
+    <td>Laptop HyperX V6</td>
+    <td>72 unitati</td>
+    <td>3976.79 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>338</td>
+    <td>Cooler Corsair V4</td>
+    <td>277 unitati</td>
+    <td>1027.14 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>217</td>
+    <td>Monitor Razer V1</td>
+    <td>15 unitati</td>
+    <td>2983.8 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>218</td>
+    <td>SSD TP-Link V8</td>
+    <td>280 unitati</td>
+    <td>525.47 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>348</td>
+    <td>Sursa PC AMD V5</td>
+    <td>24 unitati</td>
+    <td>1526.95 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>219</td>
+    <td>Incarcator ASUS V5</td>
+    <td>275 unitati</td>
+    <td>2378.3 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>220</td>
+    <td>Cablu HDMI Logitech V4</td>
+    <td>45 unitati</td>
+    <td>49.48 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>342</td>
+    <td>Placa Video Logitech V2</td>
+    <td>298 unitati</td>
+    <td>3328.01 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>221</td>
+    <td>Cablu HDMI Corsair V3</td>
+    <td>196 unitati</td>
+    <td>553.13 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>222</td>
+    <td>SSD Lenovo V7</td>
+    <td>9 unitati</td>
+    <td>3170.97 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>336</td>
+    <td>Hard Disk Extern AMD V5</td>
+    <td>131 unitati</td>
+    <td>3728.36 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>223</td>
+    <td>RAM Gigabyte V6</td>
+    <td>28 unitati</td>
+    <td>1971.44 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>224</td>
+    <td>SSD Sony V2</td>
+    <td>251 unitati</td>
+    <td>2586.7 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>282</td>
+    <td>Router Wi-Fi Lenovo V3</td>
+    <td>29 unitati</td>
+    <td>171.07 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>225</td>
+    <td>Sursa PC Kingston V7</td>
+    <td>1 unitati</td>
+    <td>4348.41 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>226</td>
+    <td>Monitor HP V8</td>
+    <td>216 unitati</td>
+    <td>410.26 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>356</td>
+    <td>SSD Razer V8</td>
+    <td>219 unitati</td>
+    <td>1880.07 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>227</td>
+    <td>Stick USB ASUS V4</td>
+    <td>286 unitati</td>
+    <td>367.73 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>228</td>
+    <td>Stick USB HyperX V6</td>
+    <td>98 unitati</td>
+    <td>357.56 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>286</td>
+    <td>Tastatura Lenovo V3</td>
+    <td>80 unitati</td>
+    <td>1189.07 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>229</td>
+    <td>Placa Video ASUS V9</td>
+    <td>12 unitati</td>
+    <td>1589.68 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>230</td>
+    <td>Stick USB Kingston V3</td>
+    <td>5 unitati</td>
+    <td>899.76 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>280</td>
+    <td>SSD Samsung V8</td>
+    <td>186 unitati</td>
+    <td>2772.61 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>231</td>
+    <td>Cooler Razer V2</td>
+    <td>262 unitati</td>
+    <td>2095.83 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>232</td>
+    <td>Cooler HP V8</td>
+    <td>191 unitati</td>
+    <td>3891.15 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>354</td>
+    <td>Incarcator Kingston V9</td>
+    <td>193 unitati</td>
+    <td>3110.95 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>233</td>
+    <td>Placa Video Samsung V3</td>
+    <td>15 unitati</td>
+    <td>2846.76 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>234</td>
+    <td>Router Wi-Fi HyperX V1</td>
+    <td>174 unitati</td>
+    <td>2085.92 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>364</td>
+    <td>Sursa PC Corsair V2</td>
+    <td>38 unitati</td>
+    <td>2442.12 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>235</td>
+    <td>Tastatura Logitech V6</td>
+    <td>77 unitati</td>
+    <td>2773.31 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>236</td>
+    <td>RAM Intel V8</td>
+    <td>44 unitati</td>
+    <td>2032.06 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>358</td>
+    <td>Placa Video HP V2</td>
+    <td>206 unitati</td>
+    <td>365.29 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>237</td>
+    <td>Router Wi-Fi TP-Link V4</td>
+    <td>271 unitati</td>
+    <td>691.61 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>238</td>
+    <td>Tastatura AMD V2</td>
+    <td>205 unitati</td>
+    <td>4421 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>352</td>
+    <td>Cablu HDMI Samsung V5</td>
+    <td>28 unitati</td>
+    <td>1188.07 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>239</td>
+    <td>Mouse Gigabyte V3</td>
+    <td>4 unitati</td>
+    <td>4459.57 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>240</td>
+    <td>RAM Gigabyte V3</td>
+    <td>160 unitati</td>
+    <td>1752.56 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>362</td>
+    <td>SSD Razer V9</td>
+    <td>47 unitati</td>
+    <td>2521.21 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>241</td>
+    <td>Router Wi-Fi Samsung V1</td>
+    <td>201 unitati</td>
+    <td>310.61 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>242</td>
+    <td>Mouse Gigabyte V7</td>
+    <td>90 unitati</td>
+    <td>1510.13 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>372</td>
+    <td>Placa Video Intel V1</td>
+    <td>2 unitati</td>
+    <td>2678.84 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>243</td>
+    <td>Cooler Kingston V3</td>
+    <td>234 unitati</td>
+    <td>593.35 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>244</td>
+    <td>Sursa PC ASUS V5</td>
+    <td>190 unitati</td>
+    <td>3662.13 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>366</td>
+    <td>Router Wi-Fi Razer V7</td>
+    <td>211 unitati</td>
+    <td>2026.69 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>245</td>
+    <td>Placa Video Lenovo V9</td>
+    <td>223 unitati</td>
+    <td>2295.57 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>246</td>
+    <td>Tastatura Samsung V5</td>
+    <td>184 unitati</td>
+    <td>4265.29 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>360</td>
+    <td>RAM Razer V3</td>
+    <td>241 unitati</td>
+    <td>536.34 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>247</td>
+    <td>SSD Corsair V4</td>
+    <td>5 unitati</td>
+    <td>3802.26 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>248</td>
+    <td>Mouse Gigabyte V9</td>
+    <td>300 unitati</td>
+    <td>184.3 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>370</td>
+    <td>Sursa PC Gigabyte V7</td>
+    <td>139 unitati</td>
+    <td>1125.09 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>249</td>
+    <td>Laptop Sony V3</td>
+    <td>107 unitati</td>
+    <td>826.09 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>250</td>
+    <td>Sursa PC HP V3</td>
+    <td>238 unitati</td>
+    <td>1648.88 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>380</td>
+    <td>Cablu HDMI Dell V3</td>
+    <td>59 unitati</td>
+    <td>2537.3 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>251</td>
+    <td>Sursa PC Corsair V8</td>
+    <td>253 unitati</td>
+    <td>1064.5 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>252</td>
+    <td>Casti HyperX V8</td>
+    <td>221 unitati</td>
+    <td>3057.21 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>374</td>
+    <td>RAM Corsair V1</td>
+    <td>157 unitati</td>
+    <td>1065.21 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>253</td>
+    <td>Cooler AMD V8</td>
+    <td>224 unitati</td>
+    <td>2270.54 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>254</td>
+    <td>Incarcator Razer V4</td>
+    <td>158 unitati</td>
+    <td>249.03 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>368</td>
+    <td>Laptop ASUS V3</td>
+    <td>87 unitati</td>
+    <td>3279.44 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>255</td>
+    <td>SSD Dell V6</td>
+    <td>286 unitati</td>
+    <td>3832.48 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>257</td>
+    <td>Incarcator ASUS V4</td>
+    <td>209 unitati</td>
+    <td>4188.17 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>259</td>
+    <td>Laptop Corsair V1</td>
+    <td>186 unitati</td>
+    <td>3564.34 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>261</td>
+    <td>SSD AMD V1</td>
+    <td>17 unitati</td>
+    <td>982.21 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>263</td>
+    <td>Mouse Logitech V4</td>
+    <td>252 unitati</td>
+    <td>296.69 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>265</td>
+    <td>Sursa PC Razer V5</td>
+    <td>12 unitati</td>
+    <td>1093.93 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>267</td>
+    <td>RAM Gigabyte V9</td>
+    <td>16 unitati</td>
+    <td>210.25 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>269</td>
+    <td>Casti Lenovo V2</td>
+    <td>199 unitati</td>
+    <td>613.34 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>271</td>
+    <td>SSD Kingston V3</td>
+    <td>23 unitati</td>
+    <td>3496.21 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>273</td>
+    <td>Laptop Sony V5</td>
+    <td>299 unitati</td>
+    <td>2138.2 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>275</td>
+    <td>Laptop HyperX V2</td>
+    <td>234 unitati</td>
+    <td>3348.74 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>277</td>
+    <td>Router Wi-Fi Gigabyte V5</td>
+    <td>14 unitati</td>
+    <td>368.99 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>279</td>
+    <td>Placa Video HyperX V5</td>
+    <td>237 unitati</td>
+    <td>762.4 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>281</td>
+    <td>Incarcator HyperX V1</td>
+    <td>214 unitati</td>
+    <td>1644.45 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>283</td>
+    <td>Mouse Corsair V6</td>
+    <td>32 unitati</td>
+    <td>2728.85 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>285</td>
+    <td>RAM Samsung V7</td>
+    <td>142 unitati</td>
+    <td>4322.93 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>287</td>
+    <td>Cablu HDMI Lenovo V8</td>
+    <td>157 unitati</td>
+    <td>3127.5 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>289</td>
+    <td>Sursa PC AMD V2</td>
+    <td>193 unitati</td>
+    <td>3010.26 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>291</td>
+    <td>Sursa PC Lenovo V3</td>
+    <td>144 unitati</td>
+    <td>559.31 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>293</td>
+    <td>Cooler Samsung V8</td>
+    <td>96 unitati</td>
+    <td>2759.59 RON</td>
+    <td>30</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>295</td>
+    <td>Router Wi-Fi Intel V2</td>
+    <td>46 unitati</td>
+    <td>2033.14 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>297</td>
+    <td>Monitor HP V3</td>
+    <td>46 unitati</td>
+    <td>3743.79 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>299</td>
+    <td>RAM Sony V5</td>
+    <td>7 unitati</td>
+    <td>2863.23 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>301</td>
+    <td>Placa Video Razer V3</td>
+    <td>182 unitati</td>
+    <td>3793.75 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>303</td>
+    <td>Cablu HDMI Kingston V4</td>
+    <td>44 unitati</td>
+    <td>2248.7 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>305</td>
+    <td>Router Wi-Fi Kingston V7</td>
+    <td>44 unitati</td>
+    <td>723.99 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>307</td>
+    <td>Sursa PC Samsung V6</td>
+    <td>12 unitati</td>
+    <td>2324.69 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>309</td>
+    <td>Mouse Logitech V5</td>
+    <td>249 unitati</td>
+    <td>1128.49 RON</td>
+    <td>35</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>311</td>
+    <td>Monitor AMD V9</td>
+    <td>176 unitati</td>
+    <td>2245.71 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>313</td>
+    <td>Tastatura Logitech V5</td>
+    <td>260 unitati</td>
+    <td>1296.58 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>315</td>
+    <td>Router Wi-Fi Intel V6</td>
+    <td>297 unitati</td>
+    <td>2534.75 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>317</td>
+    <td>Cablu HDMI Dell V2</td>
+    <td>210 unitati</td>
+    <td>1688.79 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>319</td>
+    <td>RAM Logitech V1</td>
+    <td>3 unitati</td>
+    <td>3620.79 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>321</td>
+    <td>Cooler Samsung V3</td>
+    <td>170 unitati</td>
+    <td>2677.86 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>323</td>
+    <td>Tastatura Samsung V6</td>
+    <td>14 unitati</td>
+    <td>2632.9 RON</td>
+    <td>26</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>325</td>
+    <td>Cooler AMD V3</td>
+    <td>215 unitati</td>
+    <td>677.77 RON</td>
+    <td>21</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>327</td>
+    <td>SSD Samsung V7</td>
+    <td>113 unitati</td>
+    <td>1855.54 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>329</td>
+    <td>RAM Corsair V9</td>
+    <td>259 unitati</td>
+    <td>2371.77 RON</td>
+    <td>15</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>331</td>
+    <td>Stick USB Lenovo V5</td>
+    <td>150 unitati</td>
+    <td>1266.34 RON</td>
+    <td>24</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>333</td>
+    <td>SSD Samsung V8</td>
+    <td>156 unitati</td>
+    <td>1305.74 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>335</td>
+    <td>Router Wi-Fi HP V3</td>
+    <td>12 unitati</td>
+    <td>369.45 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>337</td>
+    <td>Cablu HDMI Sony V9</td>
+    <td>82 unitati</td>
+    <td>2776.31 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>339</td>
+    <td>Casti Logitech V2</td>
+    <td>259 unitati</td>
+    <td>465.94 RON</td>
+    <td>18</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>341</td>
+    <td>Hard Disk Extern Sony V8</td>
+    <td>167 unitati</td>
+    <td>1455.44 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>343</td>
+    <td>Stick USB Sony V1</td>
+    <td>247 unitati</td>
+    <td>3971.87 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>344</td>
+    <td>Monitor Sony V1</td>
+    <td>284 unitati</td>
+    <td>850.61 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>345</td>
+    <td>Sursa PC Dell V5</td>
+    <td>20 unitati</td>
+    <td>2562.31 RON</td>
+    <td>33</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>346</td>
+    <td>Mouse Sony V6</td>
+    <td>292 unitati</td>
+    <td>2366.57 RON</td>
+    <td>14</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>347</td>
+    <td>Hard Disk Extern Razer V9</td>
+    <td>76 unitati</td>
+    <td>1498.12 RON</td>
+    <td>19</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>349</td>
+    <td>Cablu HDMI TP-Link V4</td>
+    <td>217 unitati</td>
+    <td>3724.05 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>350</td>
+    <td>RAM Samsung V2</td>
+    <td>111 unitati</td>
+    <td>4417.86 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>351</td>
+    <td>SSD Samsung V4</td>
+    <td>125 unitati</td>
+    <td>2018.61 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>353</td>
+    <td>Laptop Lenovo V4</td>
+    <td>244 unitati</td>
+    <td>1391.03 RON</td>
+    <td>6</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>355</td>
+    <td>Placa Video Sony V5</td>
+    <td>128 unitati</td>
+    <td>4308.76 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>357</td>
+    <td>RAM Sony V8</td>
+    <td>140 unitati</td>
+    <td>3431.94 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>359</td>
+    <td>Cooler ASUS V1</td>
+    <td>289 unitati</td>
+    <td>921.67 RON</td>
+    <td>31</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>361</td>
+    <td>Casti Lenovo V8</td>
+    <td>235 unitati</td>
+    <td>3641.98 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>363</td>
+    <td>Placa Video HP V5</td>
+    <td>9 unitati</td>
+    <td>3676.79 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>365</td>
+    <td>Tastatura Sony V2</td>
+    <td>180 unitati</td>
+    <td>1848.77 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>367</td>
+    <td>Hard Disk Extern Sony V7</td>
+    <td>5 unitati</td>
+    <td>2946.1 RON</td>
+    <td>17</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>369</td>
+    <td>Casti Dell V1</td>
+    <td>10 unitati</td>
+    <td>2091.57 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>371</td>
+    <td>Laptop Razer V5</td>
+    <td>68 unitati</td>
+    <td>159.49 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>373</td>
+    <td>SSD TP-Link V1</td>
+    <td>217 unitati</td>
+    <td>1983.75 RON</td>
+    <td>12</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>375</td>
+    <td>Hard Disk Extern Lenovo V6</td>
+    <td>187 unitati</td>
+    <td>1077.51 RON</td>
+    <td>23</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>377</td>
+    <td>Cooler Sony V3</td>
+    <td>278 unitati</td>
+    <td>225.28 RON</td>
+    <td>25</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>379</td>
+    <td>Cablu HDMI Intel V3</td>
+    <td>152 unitati</td>
+    <td>3824.29 RON</td>
+    <td>29</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>381</td>
+    <td>Incarcator Gigabyte V9</td>
+    <td>139 unitati</td>
+    <td>926.97 RON</td>
+    <td>9</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>383</td>
+    <td>Incarcator Kingston V1</td>
+    <td>26 unitati</td>
+    <td>3431.21 RON</td>
+    <td>32</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>384</td>
+    <td>Sursa PC Kingston V9</td>
+    <td>181 unitati</td>
+    <td>1374.8 RON</td>
+    <td>11</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>386</td>
+    <td>Router Wi-Fi AMD V4</td>
+    <td>131 unitati</td>
+    <td>1793.89 RON</td>
+    <td>27</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>388</td>
+    <td>Laptop HyperX V5</td>
+    <td>270 unitati</td>
+    <td>2105.03 RON</td>
+    <td>16</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>390</td>
+    <td>Incarcator Logitech V4</td>
+    <td>9 unitati</td>
+    <td>2496.6 RON</td>
+    <td>28</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+  <tr>
+    <td>392</td>
+    <td>Cooler Dell V4</td>
+    <td>192 unitati</td>
+    <td>1169.11 RON</td>
+    <td>20</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>394</td>
+    <td>Sursa PC Gigabyte V8</td>
+    <td>287 unitati</td>
+    <td>4456.6 RON</td>
+    <td>10</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>396</td>
+    <td>Incarcator Razer V4</td>
+    <td>11 unitati</td>
+    <td>995.96 RON</td>
+    <td>7</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>398</td>
+    <td>Tastatura Logitech V9</td>
+    <td>30 unitati</td>
+    <td>2389.44 RON</td>
+    <td>22</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr>
+    <td>399</td>
+    <td>Cablu HDMI Gigabyte V5</td>
+    <td>225 unitati</td>
+    <td>3630.66 RON</td>
+    <td>5</td>
+    <td><span class='badge badge-green'>OPTIM</span></td>
+  </tr>
+  <tr class='status-alert'>
+    <td>400</td>
+    <td>Hard Disk Extern Razer V2</td>
+    <td>10 unitati</td>
+    <td>1095.75 RON</td>
+    <td>34</td>
+    <td><span class='badge badge-red'>CRITICAL / REAPROVIZIONARE</span></td>
+  </tr>
+</tbody>
+</table>
+</body>
+</html>
