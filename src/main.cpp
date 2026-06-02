@@ -91,8 +91,7 @@ int main() {
                 std::cout << "\n" << BOLD << "--- OPERATIUNE VANZARE ---" << RESET << "\n";
                 std::cout << "ID Produs: "; std::cin >> id;
                 std::cout << "Cantitate vanduta: "; std::cin >> c;
-                d.actualizeaza(id, -c);
-                std::cout << GREEN << "\n[OK] Vanzare salvata cu succes!" << RESET << "\n";
+                d.aplicaLoyaltyCard(id, c);
             }
             else if (opt == 4) {
                 int id, c;

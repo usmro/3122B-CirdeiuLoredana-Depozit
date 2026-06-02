@@ -23,6 +23,8 @@ public:
     void cautaDupaNume(std::string textCautat) const;
     void afiseazaStatistici() const;
     void exportaRaportHTML(std::string fisier) const;
+    // --- OPȚIUNE MODERNĂ NOUĂ ---
+    void aplicaLoyaltyCard(int id, int cantitate) const;
 };
 
 #endif

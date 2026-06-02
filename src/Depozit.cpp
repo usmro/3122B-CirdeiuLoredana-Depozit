@@ -285,3 +285,56 @@ void Depozit::cautaDupaNume(std::string textCautat) const {
     }
     std::cout << "\033[35m--------------------------------------------------\033[0m\n";
 }
+// Adaugă la finalul fișierului src/Depozit.cpp
+
+void Depozit::aplicaLoyaltyCard(int id, int cantitate) const {
+    // 1. Căutăm dacă produsul există înainte de orice calcul
+    auto it = produse.find(id);
+    if (it == produse.end()) {
+        std::cout << "\033[31m[EROARE] Produsul cu ID-ul " << id << " nu a fost gasit in catalog!\033[0m\n";
+        return;
+    }
+
+    const Produs& p = it->second;
+
+    // 2. Cerem codul promoțional
+    std::string codPromo;
+    std::cout << "\033[34m[POS] Scanati Nexus Card / Cod Promo (Apasati Enter/Tastati 'NU' pentru pret standard): \033[0m";
+    std::cin >> codPromo;
+
+    double procentReducere = 0.0;
+    if (codPromo == "TECH10") procentReducere = 10.0;
+    else if (codPromo == "STUDENT20") procentReducere = 20.0;
+    else if (codPromo == "NEXUS30") procentReducere = 30.0;
+
+    // 3. Calculăm prețurile (Preț unitar * cantitate)
+    double pretTotalStandard = p.getPret() * cantitate;
+    double valoareReducere = (pretTotalStandard * procentReducere) / 100.0;
+    double pretFinal = pretTotalStandard - valoareReducere;
+
+    try {
+        // 4. Modificăm stocul efectiv în baza de date (transmitem cantitate negativă pentru vânzare)
+        // Folosim const_cast pentru că metoda de loialitate este const, dar actualizeaza modifică mapa
+        const_cast<Depozit*>(this)->actualizeaza(id, -cantitate);
+
+        // 5. Dacă stocul a fost actualizat cu succes, emitem bonul fiscal
+        std::cout << "\n\033[97m\033[44m=======================================================\033[0m\n";
+        std::cout << "\033[97m\033[44m             NEXUS IT HUB - BON FISCAL POS             \033[0m\n";
+        std::cout << "  Articol: " << p.getNume() << "\n";
+        std::cout << "  Cantitate: " << cantitate << " buc. x " << p.getPret() << " RON\n";
+        std::cout << "  -----------------------------------------------------\n";
+        std::cout << "  Pret total standard:                  " << pretTotalStandard << " RON\n";
+        if (procentReducere > 0) {
+            std::cout << "  Voucher loialitate (" << codPromo << "):         \033[32m-" << procentReducere << "%\033[0m\n";
+            std::cout << "  Economie client:                      \033[32m" << valoareReducere << " RON\033[0m\n";
+        }
+        std::cout << "  -----------------------------------------------------\n";
+        std::cout << "  \033[1mTOTAL DE PLATA:                       \033[34m" << pretFinal << " RON\033[0m\n";
+        std::cout << "\033[44m=======================================================\033[0m\n";
+        std::cout << "\033[32m[OK] Vanzare salvata in istoricul fiscal al sesiunii.\033[0m\n";
+    }
+    catch (const std::exception& e) {
+        // Dacă metoda actualizeaza() aruncă eroare (ex: stoc insuficient), o prindem aici
+        std::cout << "\033[31m[EROARE TRANZACTIE] " << e.what() << "\033[0m\n";
+    }
+}

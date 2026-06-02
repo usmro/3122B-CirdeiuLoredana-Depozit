@@ -1,401 +1,401 @@
-ID,Nume,Cantitate,Pret,Prag
-1,Placa Video ASUS V1,142,640.83,28
-2,Mouse Kingston V9,23,148.64,7
-3,Casti Corsair V9,7,3226.35,24
-4,Sursa PC Gigabyte V7,154,3645.3,12
-5,Tastatura HP V3,169,712.33,27
-6,Router Wi-Fi Samsung V2,190,3816.01,7
-7,Cooler HyperX V1,91,4379.42,28
-8,Incarcator ASUS V9,199,2604.42,14
-9,Sursa PC ASUS V1,10,4433.72,26
-10,Stick USB Corsair V2,203,744.5,17
-11,Laptop Corsair V5,63,2746.95,27
-12,Monitor Gigabyte V4,148,4453.01,10
-13,Placa Video Lenovo V9,40,1042.28,12
-14,Tastatura HP V6,125,4110.42,17
-15,Cooler Sony V6,213,3982.8,11
-16,Placa Video AMD V3,12,2532.74,13
-17,Cablu HDMI Lenovo V7,218,998.65,33
-18,Monitor Gigabyte V8,63,700.49,7
-19,Monitor HP V7,13,2687.56,24
-20,SSD Gigabyte V5,27,3066.07,22
-21,Mouse Kingston V9,203,515.31,29
-22,Incarcator Razer V8,139,4373.92,5
-23,Router Wi-Fi Razer V9,20,3789.89,34
-24,RAM TP-Link V4,91,2434.11,9
-25,Router Wi-Fi Sony V9,21,2206.4,34
-26,Mouse Sony V6,190,1088.94,33
-27,Casti Sony V2,42,4401.26,7
-28,RAM HP V3,290,755.59,9
-29,RAM Dell V7,13,3212.58,35
-30,Incarcator Kingston V6,250,557.7,19
-31,Casti ASUS V6,122,2654.15,5
-32,Tastatura ASUS V1,1,3870.46,12
-33,Mouse Gigabyte V4,122,2433.46,13
-34,Sursa PC Sony V8,220,868.99,12
-35,Mouse Kingston V7,255,3889.31,16
-36,Tastatura Kingston V2,179,3605.66,6
-37,Mouse Corsair V4,82,1907.14,11
-38,Cablu HDMI AMD V4,258,3638.98,32
-39,Stick USB Gigabyte V2,282,3764.58,6
-40,Mouse Sony V4,256,973.66,10
-41,Incarcator Sony V1,209,1204.44,10
-42,Router Wi-Fi HP V8,298,2983.49,14
-43,SSD Razer V4,1,2612.62,14
-44,RAM Logitech V6,4,2270.28,6
-45,Stick USB Gigabyte V3,47,3833.27,6
-46,Mouse TP-Link V2,232,552.69,26
-47,Hard Disk Extern TP-Link V4,64,1895.22,23
-48,Cooler TP-Link V9,119,3018.72,15
-49,Laptop Corsair V5,10,2065.65,17
-50,Hard Disk Extern HP V2,293,4482.49,5
-51,Mouse Gigabyte V4,199,3965.68,21
-52,Hard Disk Extern Corsair V6,9,3170.38,14
-53,Cooler HP V9,288,1357.71,5
-54,Placa Video ASUS V3,2,3344.74,13
-55,Monitor HyperX V5,11,928.13,24
-56,Placa Video Dell V5,47,428.96,21
-57,Incarcator Dell V5,2,2872.45,6
-58,Cablu HDMI Razer V8,26,516.75,22
-59,Hard Disk Extern Lenovo V3,12,2627.56,22
-60,Monitor Intel V3,26,4046.68,6
-61,Casti Kingston V4,25,2526.08,26
-62,Stick USB Intel V3,117,4393.28,34
-63,Router Wi-Fi Razer V7,3,3524.0,5
-64,Incarcator HP V4,12,499.81,13
-65,Stick USB Logitech V8,8,1583.22,12
-66,Stick USB HP V4,4,1802.12,12
-67,Cablu HDMI Dell V2,214,2892.05,35
-68,Incarcator Kingston V9,74,3948.52,15
-69,Cablu HDMI Razer V5,4,1565.41,6
-70,Router Wi-Fi Samsung V7,83,1742.6,24
-71,Cooler Corsair V5,6,2346.84,6
-72,Router Wi-Fi Gigabyte V4,185,2809.85,16
-73,Placa Video Dell V2,287,1402.14,28
-74,Incarcator Samsung V7,92,875.4,27
-75,Placa Video Intel V3,231,2472.5,24
-76,Tastatura HyperX V5,175,2100.47,11
-77,SSD Kingston V4,107,2969.95,21
-78,Cablu HDMI Gigabyte V6,127,3032.49,7
-79,Casti HP V4,4,4427.95,9
-80,Cooler Dell V2,118,3236.78,19
-81,Incarcator AMD V7,1,4018.58,12
-82,Stick USB HP V2,119,3621.43,29
-83,Sursa PC Gigabyte V8,68,2062.23,6
-84,Router Wi-Fi AMD V9,248,2762.75,22
-85,Sursa PC Sony V9,298,2014.92,18
-86,Monitor Lenovo V8,145,3781.79,19
-87,Cablu HDMI HP V9,160,1987.83,20
-88,Sursa PC HyperX V4,289,376.39,13
-89,Monitor Corsair V7,7,303.07,27
-90,Incarcator Samsung V9,124,3750.52,19
-91,Incarcator Sony V1,226,2154.25,32
-92,Laptop HyperX V7,246,2428.92,32
-93,Sursa PC Gigabyte V4,14,2193.1,20
-94,Incarcator Samsung V7,15,4139.14,28
-95,Cooler Gigabyte V1,47,391.5,34
-96,Incarcator Razer V8,7,1483.18,10
-97,SSD Samsung V6,171,3387.76,29
-98,Stick USB Intel V5,1,3374.37,31
-99,Tastatura Samsung V4,21,195.56,25
-100,Tastatura Corsair V4,5,1084.87,31
-101,SSD Kingston V2,261,3152.1,23
-102,Router Wi-Fi Samsung V3,82,3503.4,24
-103,Monitor HyperX V2,10,2597.45,23
-104,Hard Disk Extern Intel V7,73,2670.56,35
-105,Stick USB Kingston V4,162,3828.57,8
-106,Cooler HP V2,51,1572.21,30
-107,Incarcator Kingston V6,181,71.74,7
-108,Incarcator Dell V8,193,2865.6,8
-109,Stick USB AMD V3,17,4345.15,18
-110,Cablu HDMI TP-Link V9,252,3718.42,29
-111,Cooler HyperX V6,30,403.68,32
-112,Hard Disk Extern AMD V4,223,1523.74,29
-113,SSD Dell V6,191,3593.28,10
-114,Laptop HyperX V5,7,398.97,22
-115,Sursa PC Intel V8,265,2911.87,22
-116,SSD AMD V1,214,3117.67,7
-117,Cablu HDMI Kingston V6,196,1923.38,20
-118,Sursa PC Gigabyte V6,154,1390.2,16
-119,Casti ASUS V4,9,4279.69,15
-120,Sursa PC Razer V4,152,3264.76,11
-121,Router Wi-Fi Gigabyte V5,159,1035.26,8
-122,Monitor HyperX V1,167,219.14,27
-123,Tastatura Gigabyte V5,278,475.11,27
-124,Tastatura TP-Link V5,194,841.87,20
-125,Tastatura HyperX V8,213,2220.48,8
-126,Cooler Kingston V1,5,397.04,9
-127,Casti ASUS V9,144,3493.99,29
-128,Incarcator AMD V8,233,1384.63,14
-129,Cooler Logitech V2,143,1201.94,35
-130,Mouse Razer V4,90,27.0,10
-131,SSD Lenovo V8,5,3185.7,14
-132,Sursa PC Dell V8,142,3548.41,7
-133,Placa Video TP-Link V4,8,2919.64,18
-134,Hard Disk Extern HyperX V3,3,2683.77,7
-135,Stick USB TP-Link V5,10,3153.31,19
-136,Cablu HDMI Gigabyte V9,40,4004.06,20
-137,Sursa PC Samsung V5,1,4498.08,5
-138,Placa Video Dell V5,6,2125.2,23
-139,Placa Video AMD V5,233,2862.01,10
-140,SSD ASUS V8,180,3020.55,16
-141,Stick USB Razer V6,165,2986.69,18
-142,Incarcator Dell V9,167,1147.01,6
-143,Mouse HP V7,32,2964.61,32
-144,RAM AMD V7,3,2807.51,6
-145,SSD Kingston V8,9,2478.25,29
-146,Hard Disk Extern HyperX V8,95,144.48,33
-147,Placa Video TP-Link V4,18,76.33,27
-148,Incarcator ASUS V4,267,4262.57,31
-149,Placa Video Dell V3,169,2297.29,20
-150,Cablu HDMI Intel V8,18,663.72,20
-151,Casti Sony V9,63,1253.97,28
-152,Router Wi-Fi Dell V7,274,1213.27,15
-153,Tastatura HyperX V5,281,3895.69,31
-154,SSD Gigabyte V8,294,1706.79,16
-155,Hard Disk Extern Samsung V4,13,1062.53,27
-156,Router Wi-Fi Intel V1,210,1746.56,15
-157,Placa Video HP V3,84,2267.78,20
-158,Cooler Samsung V2,83,2373.89,32
-159,SSD Logitech V3,97,350.6,18
-160,Router Wi-Fi HyperX V6,65,3835.17,24
-161,Stick USB Kingston V9,266,3927.64,17
-162,Tastatura TP-Link V2,159,4488.46,12
-163,Sursa PC ASUS V7,59,2004.9,8
-164,Sursa PC HyperX V1,34,1330.75,6
-165,Laptop Intel V3,104,777.38,12
-166,Mouse TP-Link V7,278,4109.04,24
-167,Monitor Corsair V8,155,3005.78,25
-168,Hard Disk Extern HP V8,113,346.27,33
-169,Laptop TP-Link V5,153,2063.91,25
-170,Cablu HDMI Corsair V7,153,1725.42,32
-171,Laptop TP-Link V5,229,1246.04,27
-172,Cooler Dell V1,288,3750.28,34
-173,Hard Disk Extern HyperX V4,136,2870.23,24
-174,Cooler HyperX V3,21,2913.84,25
-175,Cablu HDMI HP V8,73,419.25,6
-176,Cablu HDMI Samsung V7,9,3945.93,10
-177,Laptop Gigabyte V9,118,1167.51,34
-178,Stick USB AMD V5,86,2115.47,28
-179,Mouse Razer V4,235,4353.2,32
-180,Router Wi-Fi Gigabyte V6,14,1201.1,7
-181,Mouse AMD V6,160,2636.75,26
-182,Stick USB Kingston V6,249,127.24,8
-183,Hard Disk Extern Gigabyte V6,66,2864.79,34
-184,SSD Sony V5,96,218.38,25
-185,Tastatura HyperX V8,5,623.45,8
-186,SSD Samsung V9,97,3986.08,18
-187,Placa Video ASUS V8,167,161.73,24
-188,Laptop Corsair V8,204,460.61,19
-189,Placa Video Samsung V9,216,286.57,33
-190,Cablu HDMI Corsair V2,267,426.16,35
-191,Casti Kingston V1,130,4449.86,6
-192,Router Wi-Fi TP-Link V4,290,944.1,7
-193,Casti Dell V4,16,1258.58,15
-194,Monitor Razer V9,69,2979.84,13
-195,Tastatura Razer V1,137,2656.01,16
-196,Tastatura Razer V5,4,2374.49,6
-197,Sursa PC ASUS V8,281,2677.59,19
-198,SSD Gigabyte V4,189,2069.32,35
-199,Tastatura Logitech V8,87,2213.86,32
-200,Hard Disk Extern AMD V2,10,309.58,33
-201,Cablu HDMI TP-Link V9,298,1337.62,27
-202,RAM TP-Link V7,66,3839.78,8
-203,Placa Video Sony V9,248,2040.22,28
-204,Casti Intel V6,243,3287.31,31
-205,Laptop Intel V6,104,3095.39,26
-206,SSD ASUS V2,14,448.09,31
-207,Sursa PC Samsung V3,18,2534.15,22
-208,Placa Video ASUS V7,232,3908.39,16
-209,Sursa PC Logitech V5,77,2606.96,24
-210,Casti Razer V8,191,3806.5,12
-211,Laptop ASUS V5,14,3805.52,23
-212,Router Wi-Fi Dell V9,141,144.86,5
-213,Cablu HDMI Lenovo V5,37,828.6,34
-214,Monitor TP-Link V7,6,4373.57,7
-215,Mouse Lenovo V9,243,1543.92,11
-216,Laptop HyperX V6,72,3976.79,29
-217,Monitor Razer V1,15,2983.8,26
-218,SSD TP-Link V8,280,525.47,18
-219,Incarcator ASUS V5,275,2378.3,26
-220,Cablu HDMI Logitech V4,45,49.48,17
-221,Cablu HDMI Corsair V3,196,553.13,29
-222,SSD Lenovo V7,9,3170.97,10
-223,RAM Gigabyte V6,28,1971.44,7
-224,SSD Sony V2,251,2586.7,32
-225,Sursa PC Kingston V7,1,4348.41,14
-226,Monitor HP V8,216,410.26,31
-227,Stick USB ASUS V4,286,367.73,18
-228,Stick USB HyperX V6,98,357.56,12
-229,Placa Video ASUS V9,12,1589.68,21
-230,Stick USB Kingston V3,5,899.76,12
-231,Cooler Razer V2,262,2095.83,10
-232,Cooler HP V8,191,3891.15,26
-233,Placa Video Samsung V3,15,2846.76,19
-234,Router Wi-Fi HyperX V1,174,2085.92,16
-235,Tastatura Logitech V6,77,2773.31,31
-236,RAM Intel V8,44,2032.06,23
-237,Router Wi-Fi TP-Link V4,271,691.61,15
-238,Tastatura AMD V2,205,4421.0,30
-239,Mouse Gigabyte V3,4,4459.57,6
-240,RAM Gigabyte V3,160,1752.56,16
-241,Router Wi-Fi Samsung V1,201,310.61,30
-242,Mouse Gigabyte V7,90,1510.13,14
-243,Cooler Kingston V3,234,593.35,34
-244,Sursa PC ASUS V5,190,3662.13,22
-245,Placa Video Lenovo V9,223,2295.57,7
-246,Tastatura Samsung V5,184,4265.29,10
-247,SSD Corsair V4,5,3802.26,9
-248,Mouse Gigabyte V9,300,184.3,31
-249,Laptop Sony V3,107,826.09,24
-250,Sursa PC HP V3,238,1648.88,28
-251,Sursa PC Corsair V8,253,1064.5,24
-252,Casti HyperX V8,221,3057.21,33
-253,Cooler AMD V8,224,2270.54,29
-254,Incarcator Razer V4,158,249.03,30
-255,SSD Dell V6,286,3832.48,22
-256,Cablu HDMI ASUS V3,275,675.86,13
-257,Incarcator ASUS V4,209,4188.17,31
-258,Incarcator Logitech V7,218,4475.45,21
-259,Laptop Corsair V1,186,3564.34,15
-260,Monitor Logitech V5,105,3418.4,34
-261,SSD AMD V1,17,982.21,33
-262,Monitor Gigabyte V9,10,1080.82,18
-263,Mouse Logitech V4,252,296.69,18
-264,Stick USB Sony V8,287,2594.09,24
-265,Sursa PC Razer V5,12,1093.93,18
-266,Incarcator Razer V2,55,4291.02,21
-267,RAM Gigabyte V9,16,210.25,22
-268,Incarcator Samsung V5,26,318.0,28
-269,Casti Lenovo V2,199,613.34,29
-270,Laptop Gigabyte V6,268,4413.97,31
-271,SSD Kingston V3,23,3496.21,30
-272,SSD Logitech V5,4,3987.77,11
-273,Laptop Sony V5,299,2138.2,21
-274,Tastatura HP V4,38,3898.11,14
-275,Laptop HyperX V2,234,3348.74,30
-276,Hard Disk Extern Intel V6,264,1662.55,10
-277,Router Wi-Fi Gigabyte V5,14,368.99,30
-278,Cooler Dell V3,74,374.11,22
-279,Placa Video HyperX V5,237,762.4,19
-280,SSD Samsung V8,186,2772.61,6
-281,Incarcator HyperX V1,214,1644.45,7
-282,Router Wi-Fi Lenovo V3,29,171.07,35
-283,Mouse Corsair V6,32,2728.85,16
-284,Placa Video AMD V6,55,2589.04,16
-285,RAM Samsung V7,142,4322.93,15
-286,Tastatura Lenovo V3,80,1189.07,20
-287,Cablu HDMI Lenovo V8,157,3127.5,11
-288,SSD Corsair V2,240,789.36,9
-289,Sursa PC AMD V2,193,3010.26,30
-290,Sursa PC ASUS V9,175,3833.36,22
-291,Sursa PC Lenovo V3,144,559.31,30
-292,Casti HP V3,25,1633.62,12
-293,Cooler Samsung V8,96,2759.59,30
-294,Mouse ASUS V5,262,2372.75,17
-295,Router Wi-Fi Intel V2,46,2033.14,9
-296,Placa Video Gigabyte V6,291,2884.48,9
-297,Monitor HP V3,46,3743.79,18
-298,RAM Razer V5,4,1566.91,10
-299,RAM Sony V5,7,2863.23,32
-300,RAM HyperX V3,298,434.03,25
-301,Placa Video Razer V3,182,3793.75,10
-302,Cooler Logitech V1,6,3473.04,7
-303,Cablu HDMI Kingston V4,44,2248.7,29
-304,Placa Video Gigabyte V5,272,1113.28,25
-305,Router Wi-Fi Kingston V7,44,723.99,14
-306,Incarcator AMD V8,84,1416.93,11
-307,Sursa PC Samsung V6,12,2324.69,17
-308,Mouse Samsung V4,15,1126.92,19
-309,Mouse Logitech V5,249,1128.49,35
-310,Stick USB Sony V3,191,866.41,31
-311,Monitor AMD V9,176,2245.71,19
-312,Mouse Intel V9,129,2631.3,19
-313,Tastatura Logitech V5,260,1296.58,20
-314,Tastatura Dell V2,9,3277.87,18
-315,Router Wi-Fi Intel V6,297,2534.75,6
-316,Laptop Gigabyte V5,237,3443.35,7
-317,Cablu HDMI Dell V2,210,1688.79,9
-318,Laptop Gigabyte V6,20,2298.41,29
-319,RAM Logitech V1,3,3620.79,6
-320,RAM AMD V3,95,1485.93,24
-321,Cooler Samsung V3,170,2677.86,17
-322,RAM Dell V9,175,2144.89,22
-323,Tastatura Samsung V6,14,2632.9,26
-324,Router Wi-Fi Sony V1,140,3250.48,24
-325,Cooler AMD V3,215,677.77,21
-326,Placa Video Corsair V1,79,870.67,23
-327,SSD Samsung V7,113,1855.54,9
-328,Router Wi-Fi TP-Link V8,63,3180.4,32
-329,RAM Corsair V9,259,2371.77,15
-330,Laptop Razer V8,215,3046.27,34
-331,Stick USB Lenovo V5,150,1266.34,24
-332,Cablu HDMI Corsair V5,135,3110.73,29
-333,SSD Samsung V8,156,1305.74,16
-334,Cooler Kingston V9,219,3685.42,17
-335,Router Wi-Fi HP V3,12,369.45,14
-336,Hard Disk Extern AMD V5,131,3728.36,28
-337,Cablu HDMI Sony V9,82,2776.31,27
-338,Cooler Corsair V4,277,1027.14,6
-339,Casti Logitech V2,259,465.94,18
-340,Router Wi-Fi Razer V1,115,1839.98,35
-341,Hard Disk Extern Sony V8,167,1455.44,20
-342,Placa Video Logitech V2,298,3328.01,25
-343,Stick USB Sony V1,247,3971.87,34
-344,Monitor Sony V1,284,850.61,31
-345,Sursa PC Dell V5,20,2562.31,33
-346,Mouse Sony V6,292,2366.57,14
-347,Hard Disk Extern Razer V9,76,1498.12,19
-348,Sursa PC AMD V5,24,1526.95,27
-349,Cablu HDMI TP-Link V4,217,3724.05,10
-350,RAM Samsung V2,111,4417.86,17
-351,SSD Samsung V4,125,2018.61,5
-352,Cablu HDMI Samsung V5,28,1188.07,23
-353,Laptop Lenovo V4,244,1391.03,6
-354,Incarcator Kingston V9,193,3110.95,34
-355,Placa Video Sony V5,128,4308.76,16
-356,SSD Razer V8,219,1880.07,28
-357,RAM Sony V8,140,3431.94,29
-358,Placa Video HP V2,206,365.29,21
-359,Cooler ASUS V1,289,921.67,31
-360,RAM Razer V3,241,536.34,15
-361,Casti Lenovo V8,235,3641.98,7
-362,SSD Razer V9,47,2521.21,18
-363,Placa Video HP V5,9,3676.79,28
-364,Sursa PC Corsair V2,38,2442.12,6
-365,Tastatura Sony V2,180,1848.77,34
-366,Router Wi-Fi Razer V7,211,2026.69,16
-367,Hard Disk Extern Sony V7,5,2946.1,17
-368,Laptop ASUS V3,87,3279.44,22
-369,Casti Dell V1,10,2091.57,29
-370,Sursa PC Gigabyte V7,139,1125.09,22
-371,Laptop Razer V5,68,159.49,11
-372,Placa Video Intel V1,2,2678.84,12
-373,SSD TP-Link V1,217,1983.75,12
-374,RAM Corsair V1,157,1065.21,9
-375,Hard Disk Extern Lenovo V6,187,1077.51,23
-376,Hard Disk Extern Razer V9,152,288.4,12
-377,Cooler Sony V3,278,225.28,25
-378,Laptop Kingston V7,243,1846.04,30
-379,Cablu HDMI Intel V3,152,3824.29,29
-380,Cablu HDMI Dell V3,59,2537.3,30
-381,Incarcator Gigabyte V9,139,926.97,9
-382,Placa Video ASUS V8,129,246.14,32
-383,Incarcator Kingston V1,26,3431.21,32
-384,Sursa PC Kingston V9,181,1374.8,11
-385,Hard Disk Extern Logitech V4,8,3364.75,34
-386,Router Wi-Fi AMD V4,131,1793.89,27
-387,Casti Gigabyte V6,267,2408.42,29
-388,Laptop HyperX V5,270,2105.03,16
-389,Router Wi-Fi Lenovo V8,133,1677.61,29
-390,Incarcator Logitech V4,9,2496.6,28
-391,Cooler TP-Link V7,6,1046.63,14
-392,Cooler Dell V4,192,1169.11,20
-393,Stick USB AMD V8,12,774.16,19
-394,Sursa PC Gigabyte V8,287,4456.6,10
-395,Tastatura Gigabyte V1,55,3443.06,31
-396,Incarcator Razer V4,11,995.96,7
-397,SSD Samsung V1,271,2971.89,24
-398,Tastatura Logitech V9,30,2389.44,22
-399,Cablu HDMI Gigabyte V5,225,3630.66,5
-400,Hard Disk Extern Razer V2,10,1095.75,34
+ID,Nume,Cantitate,Pret,Prag,FurnizorNume,FurnizorEmail
+1,Placa Video ASUS V1,142,640.83,28,Distribuitor Central,comenzi@depozit.ro
+393,Stick USB AMD V8,12,774.16,19,Distribuitor Central,comenzi@depozit.ro
+2,Mouse Kingston V9,23,148.64,7,Distribuitor Central,comenzi@depozit.ro
+3,Casti Corsair V9,7,3226.35,24,Distribuitor Central,comenzi@depozit.ro
+387,Casti Gigabyte V6,267,2408.42,29,Distribuitor Central,comenzi@depozit.ro
+4,Sursa PC Gigabyte V7,154,3645.3,12,Distribuitor Central,comenzi@depozit.ro
+5,Tastatura HP V3,169,712.33,27,Distribuitor Central,comenzi@depozit.ro
+397,SSD Samsung V1,271,2971.89,24,Distribuitor Central,comenzi@depozit.ro
+6,Router Wi-Fi Samsung V2,190,3816.01,7,Distribuitor Central,comenzi@depozit.ro
+7,Cooler HyperX V1,91,4379.42,28,Distribuitor Central,comenzi@depozit.ro
+8,Incarcator ASUS V9,199,2604.42,14,Distribuitor Central,comenzi@depozit.ro
+9,Sursa PC ASUS V1,10,4433.72,26,Distribuitor Central,comenzi@depozit.ro
+10,Stick USB Corsair V2,203,744.5,17,Distribuitor Central,comenzi@depozit.ro
+11,Laptop Corsair V5,63,2746.95,27,Distribuitor Central,comenzi@depozit.ro
+395,Tastatura Gigabyte V1,55,3443.06,31,Distribuitor Central,comenzi@depozit.ro
+12,Monitor Gigabyte V4,148,4453.01,10,Distribuitor Central,comenzi@depozit.ro
+13,Placa Video Lenovo V9,40,1042.28,12,Distribuitor Central,comenzi@depozit.ro
+14,Tastatura HP V6,125,4110.42,17,Distribuitor Central,comenzi@depozit.ro
+15,Cooler Sony V6,213,3982.8,11,Distribuitor Central,comenzi@depozit.ro
+16,Placa Video AMD V3,12,2532.74,13,Distribuitor Central,comenzi@depozit.ro
+17,Cablu HDMI Lenovo V7,218,998.65,33,Distribuitor Central,comenzi@depozit.ro
+18,Monitor Gigabyte V8,63,700.49,7,Distribuitor Central,comenzi@depozit.ro
+19,Monitor HP V7,13,2687.56,24,Distribuitor Central,comenzi@depozit.ro
+20,SSD Gigabyte V5,27,3066.07,22,Distribuitor Central,comenzi@depozit.ro
+21,Mouse Kingston V9,203,515.31,29,Distribuitor Central,comenzi@depozit.ro
+22,Incarcator Razer V8,139,4373.92,5,Distribuitor Central,comenzi@depozit.ro
+23,Router Wi-Fi Razer V9,20,3789.89,34,Distribuitor Central,comenzi@depozit.ro
+24,RAM TP-Link V4,91,2434.11,9,Distribuitor Central,comenzi@depozit.ro
+25,Router Wi-Fi Sony V9,21,2206.4,34,Distribuitor Central,comenzi@depozit.ro
+26,Mouse Sony V6,190,1088.94,33,Distribuitor Central,comenzi@depozit.ro
+27,Casti Sony V2,42,4401.26,7,Distribuitor Central,comenzi@depozit.ro
+28,RAM HP V3,290,755.59,9,Distribuitor Central,comenzi@depozit.ro
+29,RAM Dell V7,13,3212.58,35,Distribuitor Central,comenzi@depozit.ro
+30,Incarcator Kingston V6,250,557.7,19,Distribuitor Central,comenzi@depozit.ro
+31,Casti ASUS V6,122,2654.15,5,Distribuitor Central,comenzi@depozit.ro
+32,Tastatura ASUS V1,1,3870.46,12,Distribuitor Central,comenzi@depozit.ro
+33,Mouse Gigabyte V4,122,2433.46,13,Distribuitor Central,comenzi@depozit.ro
+34,Sursa PC Sony V8,220,868.99,12,Distribuitor Central,comenzi@depozit.ro
+35,Mouse Kingston V7,255,3889.31,16,Distribuitor Central,comenzi@depozit.ro
+36,Tastatura Kingston V2,179,3605.66,6,Distribuitor Central,comenzi@depozit.ro
+37,Mouse Corsair V4,82,1907.14,11,Distribuitor Central,comenzi@depozit.ro
+38,Cablu HDMI AMD V4,258,3638.98,32,Distribuitor Central,comenzi@depozit.ro
+39,Stick USB Gigabyte V2,282,3764.58,6,Distribuitor Central,comenzi@depozit.ro
+40,Mouse Sony V4,256,973.66,10,Distribuitor Central,comenzi@depozit.ro
+41,Incarcator Sony V1,209,1204.44,10,Distribuitor Central,comenzi@depozit.ro
+42,Router Wi-Fi HP V8,298,2983.49,14,Distribuitor Central,comenzi@depozit.ro
+43,SSD Razer V4,1,2612.62,14,Distribuitor Central,comenzi@depozit.ro
+44,RAM Logitech V6,4,2270.28,6,Distribuitor Central,comenzi@depozit.ro
+45,Stick USB Gigabyte V3,47,3833.27,6,Distribuitor Central,comenzi@depozit.ro
+46,Mouse TP-Link V2,232,552.69,26,Distribuitor Central,comenzi@depozit.ro
+47,Hard Disk Extern TP-Link V4,64,1895.22,23,Distribuitor Central,comenzi@depozit.ro
+48,Cooler TP-Link V9,119,3018.72,15,Distribuitor Central,comenzi@depozit.ro
+49,Laptop Corsair V5,10,2065.65,17,Distribuitor Central,comenzi@depozit.ro
+50,Hard Disk Extern HP V2,293,4482.49,5,Distribuitor Central,comenzi@depozit.ro
+51,Mouse Gigabyte V4,199,3965.68,21,Distribuitor Central,comenzi@depozit.ro
+52,Hard Disk Extern Corsair V6,9,3170.38,14,Distribuitor Central,comenzi@depozit.ro
+53,Cooler HP V9,288,1357.71,5,Distribuitor Central,comenzi@depozit.ro
+54,Placa Video ASUS V3,2,3344.74,13,Distribuitor Central,comenzi@depozit.ro
+55,Monitor HyperX V5,11,928.13,24,Distribuitor Central,comenzi@depozit.ro
+391,Cooler TP-Link V7,6,1046.63,14,Distribuitor Central,comenzi@depozit.ro
+56,Placa Video Dell V5,47,428.96,21,Distribuitor Central,comenzi@depozit.ro
+57,Incarcator Dell V5,2,2872.45,6,Distribuitor Central,comenzi@depozit.ro
+385,Hard Disk Extern Logitech V4,8,3364.75,34,Distribuitor Central,comenzi@depozit.ro
+58,Cablu HDMI Razer V8,26,516.75,22,Distribuitor Central,comenzi@depozit.ro
+59,Hard Disk Extern Lenovo V3,12,2627.56,22,Distribuitor Central,comenzi@depozit.ro
+60,Monitor Intel V3,26,4046.68,6,Distribuitor Central,comenzi@depozit.ro
+61,Casti Kingston V4,25,2526.08,26,Distribuitor Central,comenzi@depozit.ro
+389,Router Wi-Fi Lenovo V8,133,1677.61,29,Distribuitor Central,comenzi@depozit.ro
+62,Stick USB Intel V3,117,4393.28,34,Distribuitor Central,comenzi@depozit.ro
+63,Router Wi-Fi Razer V7,3,3524,5,Distribuitor Central,comenzi@depozit.ro
+64,Incarcator HP V4,12,499.81,13,Distribuitor Central,comenzi@depozit.ro
+65,Stick USB Logitech V8,8,1583.22,12,Distribuitor Central,comenzi@depozit.ro
+66,Stick USB HP V4,4,1802.12,12,Distribuitor Central,comenzi@depozit.ro
+67,Cablu HDMI Dell V2,214,2892.05,35,Distribuitor Central,comenzi@depozit.ro
+68,Incarcator Kingston V9,74,3948.52,15,Distribuitor Central,comenzi@depozit.ro
+69,Cablu HDMI Razer V5,4,1565.41,6,Distribuitor Central,comenzi@depozit.ro
+70,Router Wi-Fi Samsung V7,83,1742.6,24,Distribuitor Central,comenzi@depozit.ro
+71,Cooler Corsair V5,6,2346.84,6,Distribuitor Central,comenzi@depozit.ro
+72,Router Wi-Fi Gigabyte V4,185,2809.85,16,Distribuitor Central,comenzi@depozit.ro
+73,Placa Video Dell V2,287,1402.14,28,Distribuitor Central,comenzi@depozit.ro
+74,Incarcator Samsung V7,92,875.4,27,Distribuitor Central,comenzi@depozit.ro
+75,Placa Video Intel V3,231,2472.5,24,Distribuitor Central,comenzi@depozit.ro
+76,Tastatura HyperX V5,175,2100.47,11,Distribuitor Central,comenzi@depozit.ro
+77,SSD Kingston V4,107,2969.95,21,Distribuitor Central,comenzi@depozit.ro
+78,Cablu HDMI Gigabyte V6,127,3032.49,7,Distribuitor Central,comenzi@depozit.ro
+79,Casti HP V4,4,4427.95,9,Distribuitor Central,comenzi@depozit.ro
+80,Cooler Dell V2,118,3236.78,19,Distribuitor Central,comenzi@depozit.ro
+81,Incarcator AMD V7,1,4018.58,12,Distribuitor Central,comenzi@depozit.ro
+82,Stick USB HP V2,119,3621.43,29,Distribuitor Central,comenzi@depozit.ro
+83,Sursa PC Gigabyte V8,68,2062.23,6,Distribuitor Central,comenzi@depozit.ro
+84,Router Wi-Fi AMD V9,248,2762.75,22,Distribuitor Central,comenzi@depozit.ro
+85,Sursa PC Sony V9,298,2014.92,18,Distribuitor Central,comenzi@depozit.ro
+86,Monitor Lenovo V8,145,3781.79,19,Distribuitor Central,comenzi@depozit.ro
+87,Cablu HDMI HP V9,160,1987.83,20,Distribuitor Central,comenzi@depozit.ro
+88,Sursa PC HyperX V4,289,376.39,13,Distribuitor Central,comenzi@depozit.ro
+89,Monitor Corsair V7,7,303.07,27,Distribuitor Central,comenzi@depozit.ro
+90,Incarcator Samsung V9,124,3750.52,19,Distribuitor Central,comenzi@depozit.ro
+91,Incarcator Sony V1,226,2154.25,32,Distribuitor Central,comenzi@depozit.ro
+92,Laptop HyperX V7,246,2428.92,32,Distribuitor Central,comenzi@depozit.ro
+93,Sursa PC Gigabyte V4,14,2193.1,20,Distribuitor Central,comenzi@depozit.ro
+94,Incarcator Samsung V7,15,4139.14,28,Distribuitor Central,comenzi@depozit.ro
+95,Cooler Gigabyte V1,47,391.5,34,Distribuitor Central,comenzi@depozit.ro
+96,Incarcator Razer V8,7,1483.18,10,Distribuitor Central,comenzi@depozit.ro
+97,SSD Samsung V6,171,3387.76,29,Distribuitor Central,comenzi@depozit.ro
+98,Stick USB Intel V5,1,3374.37,31,Distribuitor Central,comenzi@depozit.ro
+99,Tastatura Samsung V4,21,195.56,25,Distribuitor Central,comenzi@depozit.ro
+100,Tastatura Corsair V4,5,1084.87,31,Distribuitor Central,comenzi@depozit.ro
+101,SSD Kingston V2,261,3152.1,23,Distribuitor Central,comenzi@depozit.ro
+102,Router Wi-Fi Samsung V3,82,3503.4,24,Distribuitor Central,comenzi@depozit.ro
+103,Monitor HyperX V2,10,2597.45,23,Distribuitor Central,comenzi@depozit.ro
+104,Hard Disk Extern Intel V7,73,2670.56,35,Distribuitor Central,comenzi@depozit.ro
+105,Stick USB Kingston V4,162,3828.57,8,Distribuitor Central,comenzi@depozit.ro
+106,Cooler HP V2,51,1572.21,30,Distribuitor Central,comenzi@depozit.ro
+107,Incarcator Kingston V6,181,71.74,7,Distribuitor Central,comenzi@depozit.ro
+108,Incarcator Dell V8,193,2865.6,8,Distribuitor Central,comenzi@depozit.ro
+109,Stick USB AMD V3,17,4345.15,18,Distribuitor Central,comenzi@depozit.ro
+110,Cablu HDMI TP-Link V9,252,3718.42,29,Distribuitor Central,comenzi@depozit.ro
+111,Cooler HyperX V6,30,403.68,32,Distribuitor Central,comenzi@depozit.ro
+112,Hard Disk Extern AMD V4,223,1523.74,29,Distribuitor Central,comenzi@depozit.ro
+113,SSD Dell V6,191,3593.28,10,Distribuitor Central,comenzi@depozit.ro
+114,Laptop HyperX V5,7,398.97,22,Distribuitor Central,comenzi@depozit.ro
+115,Sursa PC Intel V8,265,2911.87,22,Distribuitor Central,comenzi@depozit.ro
+116,SSD AMD V1,214,3117.67,7,Distribuitor Central,comenzi@depozit.ro
+117,Cablu HDMI Kingston V6,196,1923.38,20,Distribuitor Central,comenzi@depozit.ro
+118,Sursa PC Gigabyte V6,154,1390.2,16,Distribuitor Central,comenzi@depozit.ro
+119,Casti ASUS V4,9,4279.69,15,Distribuitor Central,comenzi@depozit.ro
+120,Sursa PC Razer V4,152,3264.76,11,Distribuitor Central,comenzi@depozit.ro
+121,Router Wi-Fi Gigabyte V5,159,1035.26,8,Distribuitor Central,comenzi@depozit.ro
+122,Monitor HyperX V1,167,219.14,27,Distribuitor Central,comenzi@depozit.ro
+123,Tastatura Gigabyte V5,278,475.11,27,Distribuitor Central,comenzi@depozit.ro
+124,Tastatura TP-Link V5,194,841.87,20,Distribuitor Central,comenzi@depozit.ro
+125,Tastatura HyperX V8,213,2220.48,8,Distribuitor Central,comenzi@depozit.ro
+126,Cooler Kingston V1,5,397.04,9,Distribuitor Central,comenzi@depozit.ro
+127,Casti ASUS V9,144,3493.99,29,Distribuitor Central,comenzi@depozit.ro
+128,Incarcator AMD V8,233,1384.63,14,Distribuitor Central,comenzi@depozit.ro
+314,Tastatura Dell V2,9,3277.87,18,Distribuitor Central,comenzi@depozit.ro
+129,Cooler Logitech V2,143,1201.94,35,Distribuitor Central,comenzi@depozit.ro
+130,Mouse Razer V4,90,27,10,Distribuitor Central,comenzi@depozit.ro
+260,Monitor Logitech V5,105,3418.4,34,Distribuitor Central,comenzi@depozit.ro
+131,SSD Lenovo V8,5,3185.7,14,Distribuitor Central,comenzi@depozit.ro
+132,Sursa PC Dell V8,142,3548.41,7,Distribuitor Central,comenzi@depozit.ro
+318,Laptop Gigabyte V6,20,2298.41,29,Distribuitor Central,comenzi@depozit.ro
+133,Placa Video TP-Link V4,8,2919.64,18,Distribuitor Central,comenzi@depozit.ro
+134,Hard Disk Extern HyperX V3,3,2683.77,7,Distribuitor Central,comenzi@depozit.ro
+312,Mouse Intel V9,129,2631.3,19,Distribuitor Central,comenzi@depozit.ro
+135,Stick USB TP-Link V5,10,3153.31,19,Distribuitor Central,comenzi@depozit.ro
+136,Cablu HDMI Gigabyte V9,40,4004.06,20,Distribuitor Central,comenzi@depozit.ro
+258,Incarcator Logitech V7,218,4475.45,21,Distribuitor Central,comenzi@depozit.ro
+137,Sursa PC Samsung V5,1,4498.08,5,Distribuitor Central,comenzi@depozit.ro
+138,Placa Video Dell V5,6,2125.2,23,Distribuitor Central,comenzi@depozit.ro
+268,Incarcator Samsung V5,26,318,28,Distribuitor Central,comenzi@depozit.ro
+139,Placa Video AMD V5,233,2862.01,10,Distribuitor Central,comenzi@depozit.ro
+140,SSD ASUS V8,180,3020.55,16,Distribuitor Central,comenzi@depozit.ro
+262,Monitor Gigabyte V9,10,1080.82,18,Distribuitor Central,comenzi@depozit.ro
+141,Stick USB Razer V6,165,2986.69,18,Distribuitor Central,comenzi@depozit.ro
+142,Incarcator Dell V9,167,1147.01,6,Distribuitor Central,comenzi@depozit.ro
+256,Cablu HDMI ASUS V3,275,675.86,13,Distribuitor Central,comenzi@depozit.ro
+143,Mouse HP V7,32,2964.61,32,Distribuitor Central,comenzi@depozit.ro
+144,RAM AMD V7,3,2807.51,6,Distribuitor Central,comenzi@depozit.ro
+266,Incarcator Razer V2,55,4291.02,21,Distribuitor Central,comenzi@depozit.ro
+145,SSD Kingston V8,9,2478.25,29,Distribuitor Central,comenzi@depozit.ro
+146,Hard Disk Extern HyperX V8,95,144.48,33,Distribuitor Central,comenzi@depozit.ro
+276,Hard Disk Extern Intel V6,264,1662.55,10,Distribuitor Central,comenzi@depozit.ro
+147,Placa Video TP-Link V4,18,76.33,27,Distribuitor Central,comenzi@depozit.ro
+148,Incarcator ASUS V4,267,4262.57,31,Distribuitor Central,comenzi@depozit.ro
+270,Laptop Gigabyte V6,268,4413.97,31,Distribuitor Central,comenzi@depozit.ro
+149,Placa Video Dell V3,169,2297.29,20,Distribuitor Central,comenzi@depozit.ro
+150,Cablu HDMI Intel V8,18,663.72,20,Distribuitor Central,comenzi@depozit.ro
+264,Stick USB Sony V8,287,2594.09,24,Distribuitor Central,comenzi@depozit.ro
+151,Casti Sony V9,63,1253.97,28,Distribuitor Central,comenzi@depozit.ro
+152,Router Wi-Fi Dell V7,274,1213.27,15,Distribuitor Central,comenzi@depozit.ro
+274,Tastatura HP V4,38,3898.11,14,Distribuitor Central,comenzi@depozit.ro
+153,Tastatura HyperX V5,281,3895.69,31,Distribuitor Central,comenzi@depozit.ro
+154,SSD Gigabyte V8,294,1706.79,16,Distribuitor Central,comenzi@depozit.ro
+284,Placa Video AMD V6,55,2589.04,16,Distribuitor Central,comenzi@depozit.ro
+155,Hard Disk Extern Samsung V4,13,1062.53,27,Distribuitor Central,comenzi@depozit.ro
+156,Router Wi-Fi Intel V1,210,1746.56,15,Distribuitor Central,comenzi@depozit.ro
+278,Cooler Dell V3,74,374.11,22,Distribuitor Central,comenzi@depozit.ro
+157,Placa Video HP V3,84,2267.78,20,Distribuitor Central,comenzi@depozit.ro
+158,Cooler Samsung V2,83,2373.89,32,Distribuitor Central,comenzi@depozit.ro
+272,SSD Logitech V5,4,3987.77,11,Distribuitor Central,comenzi@depozit.ro
+159,SSD Logitech V3,97,350.6,18,Distribuitor Central,comenzi@depozit.ro
+160,Router Wi-Fi HyperX V6,65,3835.17,24,Distribuitor Central,comenzi@depozit.ro
+161,Stick USB Kingston V9,266,3927.64,17,Distribuitor Central,comenzi@depozit.ro
+162,Tastatura TP-Link V2,159,4488.46,12,Distribuitor Central,comenzi@depozit.ro
+292,Casti HP V3,25,1633.62,12,Distribuitor Central,comenzi@depozit.ro
+163,Sursa PC ASUS V7,59,2004.9,8,Distribuitor Central,comenzi@depozit.ro
+164,Sursa PC HyperX V1,34,1330.75,6,Distribuitor Central,comenzi@depozit.ro
+165,Laptop Intel V3,104,777.38,12,Distribuitor Central,comenzi@depozit.ro
+166,Mouse TP-Link V7,278,4109.04,24,Distribuitor Central,comenzi@depozit.ro
+167,Monitor Corsair V8,155,3005.78,25,Distribuitor Central,comenzi@depozit.ro
+168,Hard Disk Extern HP V8,113,346.27,33,Distribuitor Central,comenzi@depozit.ro
+290,Sursa PC ASUS V9,175,3833.36,22,Distribuitor Central,comenzi@depozit.ro
+169,Laptop TP-Link V5,153,2063.91,25,Distribuitor Central,comenzi@depozit.ro
+170,Cablu HDMI Corsair V7,153,1725.42,32,Distribuitor Central,comenzi@depozit.ro
+300,RAM HyperX V3,298,434.03,25,Distribuitor Central,comenzi@depozit.ro
+171,Laptop TP-Link V5,229,1246.04,27,Distribuitor Central,comenzi@depozit.ro
+172,Cooler Dell V1,288,3750.28,34,Distribuitor Central,comenzi@depozit.ro
+294,Mouse ASUS V5,262,2372.75,17,Distribuitor Central,comenzi@depozit.ro
+173,Hard Disk Extern HyperX V4,136,2870.23,24,Distribuitor Central,comenzi@depozit.ro
+174,Cooler HyperX V3,21,2913.84,25,Distribuitor Central,comenzi@depozit.ro
+288,SSD Corsair V2,240,789.36,9,Distribuitor Central,comenzi@depozit.ro
+175,Cablu HDMI HP V8,73,419.25,6,Distribuitor Central,comenzi@depozit.ro
+176,Cablu HDMI Samsung V7,9,3945.93,10,Distribuitor Central,comenzi@depozit.ro
+298,RAM Razer V5,4,1566.91,10,Distribuitor Central,comenzi@depozit.ro
+177,Laptop Gigabyte V9,118,1167.51,34,Distribuitor Central,comenzi@depozit.ro
+178,Stick USB AMD V5,86,2115.47,28,Distribuitor Central,comenzi@depozit.ro
+308,Mouse Samsung V4,15,1126.92,19,Distribuitor Central,comenzi@depozit.ro
+179,Mouse Razer V4,235,4353.2,32,Distribuitor Central,comenzi@depozit.ro
+180,Router Wi-Fi Gigabyte V6,14,1201.1,7,Distribuitor Central,comenzi@depozit.ro
+302,Cooler Logitech V1,6,3473.04,7,Distribuitor Central,comenzi@depozit.ro
+181,Mouse AMD V6,160,2636.75,26,Distribuitor Central,comenzi@depozit.ro
+182,Stick USB Kingston V6,249,127.24,8,Distribuitor Central,comenzi@depozit.ro
+296,Placa Video Gigabyte V6,291,2884.48,9,Distribuitor Central,comenzi@depozit.ro
+183,Hard Disk Extern Gigabyte V6,66,2864.79,34,Distribuitor Central,comenzi@depozit.ro
+184,SSD Sony V5,96,218.38,25,Distribuitor Central,comenzi@depozit.ro
+306,Incarcator AMD V8,84,1416.93,11,Distribuitor Central,comenzi@depozit.ro
+185,Tastatura HyperX V8,5,623.45,8,Distribuitor Central,comenzi@depozit.ro
+186,SSD Samsung V9,97,3986.08,18,Distribuitor Central,comenzi@depozit.ro
+316,Laptop Gigabyte V5,237,3443.35,7,Distribuitor Central,comenzi@depozit.ro
+187,Placa Video ASUS V8,167,161.73,24,Distribuitor Central,comenzi@depozit.ro
+188,Laptop Corsair V8,204,460.61,19,Distribuitor Central,comenzi@depozit.ro
+310,Stick USB Sony V3,191,866.41,31,Distribuitor Central,comenzi@depozit.ro
+189,Placa Video Samsung V9,216,286.57,33,Distribuitor Central,comenzi@depozit.ro
+190,Cablu HDMI Corsair V2,267,426.16,35,Distribuitor Central,comenzi@depozit.ro
+304,Placa Video Gigabyte V5,272,1113.28,25,Distribuitor Central,comenzi@depozit.ro
+191,Casti Kingston V1,130,4449.86,6,Distribuitor Central,comenzi@depozit.ro
+192,Router Wi-Fi TP-Link V4,290,944.1,7,Distribuitor Central,comenzi@depozit.ro
+378,Laptop Kingston V7,243,1846.04,30,Distribuitor Central,comenzi@depozit.ro
+193,Casti Dell V4,16,1258.58,15,Distribuitor Central,comenzi@depozit.ro
+194,Monitor Razer V9,69,2979.84,13,Distribuitor Central,comenzi@depozit.ro
+324,Router Wi-Fi Sony V1,140,3250.48,24,Distribuitor Central,comenzi@depozit.ro
+195,Tastatura Razer V1,137,2656.01,16,Distribuitor Central,comenzi@depozit.ro
+196,Tastatura Razer V5,4,2374.49,6,Distribuitor Central,comenzi@depozit.ro
+382,Placa Video ASUS V8,129,246.14,32,Distribuitor Central,comenzi@depozit.ro
+197,Sursa PC ASUS V8,281,2677.59,19,Distribuitor Central,comenzi@depozit.ro
+198,SSD Gigabyte V4,189,2069.32,35,Distribuitor Central,comenzi@depozit.ro
+376,Hard Disk Extern Razer V9,152,288.4,12,Distribuitor Central,comenzi@depozit.ro
+199,Tastatura Logitech V8,87,2213.86,32,Distribuitor Central,comenzi@depozit.ro
+200,Hard Disk Extern AMD V2,10,309.58,33,Distribuitor Central,comenzi@depozit.ro
+322,RAM Dell V9,175,2144.89,22,Distribuitor Central,comenzi@depozit.ro
+201,Cablu HDMI TP-Link V9,298,1337.62,27,Distribuitor Central,comenzi@depozit.ro
+202,RAM TP-Link V7,66,3839.78,8,Distribuitor Central,comenzi@depozit.ro
+332,Cablu HDMI Corsair V5,135,3110.73,29,Distribuitor Central,comenzi@depozit.ro
+203,Placa Video Sony V9,248,2040.22,28,Distribuitor Central,comenzi@depozit.ro
+204,Casti Intel V6,243,3287.31,31,Distribuitor Central,comenzi@depozit.ro
+326,Placa Video Corsair V1,79,870.67,23,Distribuitor Central,comenzi@depozit.ro
+205,Laptop Intel V6,104,3095.39,26,Distribuitor Central,comenzi@depozit.ro
+206,SSD ASUS V2,14,448.09,31,Distribuitor Central,comenzi@depozit.ro
+320,RAM AMD V3,95,1485.93,24,Distribuitor Central,comenzi@depozit.ro
+207,Sursa PC Samsung V3,18,2534.15,22,Distribuitor Central,comenzi@depozit.ro
+208,Placa Video ASUS V7,232,3908.39,16,Distribuitor Central,comenzi@depozit.ro
+330,Laptop Razer V8,215,3046.27,34,Distribuitor Central,comenzi@depozit.ro
+209,Sursa PC Logitech V5,77,2606.96,24,Distribuitor Central,comenzi@depozit.ro
+210,Casti Razer V8,191,3806.5,12,Distribuitor Central,comenzi@depozit.ro
+340,Router Wi-Fi Razer V1,115,1839.98,35,Distribuitor Central,comenzi@depozit.ro
+211,Laptop ASUS V5,14,3805.52,23,Distribuitor Central,comenzi@depozit.ro
+212,Router Wi-Fi Dell V9,141,144.86,5,Distribuitor Central,comenzi@depozit.ro
+334,Cooler Kingston V9,219,3685.42,17,Distribuitor Central,comenzi@depozit.ro
+213,Cablu HDMI Lenovo V5,37,828.6,34,Distribuitor Central,comenzi@depozit.ro
+214,Monitor TP-Link V7,6,4373.57,7,Distribuitor Central,comenzi@depozit.ro
+328,Router Wi-Fi TP-Link V8,63,3180.4,32,Distribuitor Central,comenzi@depozit.ro
+215,Mouse Lenovo V9,243,1543.92,11,Distribuitor Central,comenzi@depozit.ro
+216,Laptop HyperX V6,72,3976.79,29,Distribuitor Central,comenzi@depozit.ro
+338,Cooler Corsair V4,277,1027.14,6,Distribuitor Central,comenzi@depozit.ro
+217,Monitor Razer V1,15,2983.8,26,Distribuitor Central,comenzi@depozit.ro
+218,SSD TP-Link V8,280,525.47,18,Distribuitor Central,comenzi@depozit.ro
+348,Sursa PC AMD V5,24,1526.95,27,Distribuitor Central,comenzi@depozit.ro
+219,Incarcator ASUS V5,275,2378.3,26,Distribuitor Central,comenzi@depozit.ro
+220,Cablu HDMI Logitech V4,45,49.48,17,Distribuitor Central,comenzi@depozit.ro
+342,Placa Video Logitech V2,298,3328.01,25,Distribuitor Central,comenzi@depozit.ro
+221,Cablu HDMI Corsair V3,196,553.13,29,Distribuitor Central,comenzi@depozit.ro
+222,SSD Lenovo V7,9,3170.97,10,Distribuitor Central,comenzi@depozit.ro
+336,Hard Disk Extern AMD V5,131,3728.36,28,Distribuitor Central,comenzi@depozit.ro
+223,RAM Gigabyte V6,28,1971.44,7,Distribuitor Central,comenzi@depozit.ro
+224,SSD Sony V2,251,2586.7,32,Distribuitor Central,comenzi@depozit.ro
+282,Router Wi-Fi Lenovo V3,29,171.07,35,Distribuitor Central,comenzi@depozit.ro
+225,Sursa PC Kingston V7,1,4348.41,14,Distribuitor Central,comenzi@depozit.ro
+226,Monitor HP V8,216,410.26,31,Distribuitor Central,comenzi@depozit.ro
+356,SSD Razer V8,219,1880.07,28,Distribuitor Central,comenzi@depozit.ro
+227,Stick USB ASUS V4,286,367.73,18,Distribuitor Central,comenzi@depozit.ro
+228,Stick USB HyperX V6,98,357.56,12,Distribuitor Central,comenzi@depozit.ro
+286,Tastatura Lenovo V3,80,1189.07,20,Distribuitor Central,comenzi@depozit.ro
+229,Placa Video ASUS V9,12,1589.68,21,Distribuitor Central,comenzi@depozit.ro
+230,Stick USB Kingston V3,5,899.76,12,Distribuitor Central,comenzi@depozit.ro
+280,SSD Samsung V8,186,2772.61,6,Distribuitor Central,comenzi@depozit.ro
+231,Cooler Razer V2,262,2095.83,10,Distribuitor Central,comenzi@depozit.ro
+232,Cooler HP V8,191,3891.15,26,Distribuitor Central,comenzi@depozit.ro
+354,Incarcator Kingston V9,193,3110.95,34,Distribuitor Central,comenzi@depozit.ro
+233,Placa Video Samsung V3,15,2846.76,19,Distribuitor Central,comenzi@depozit.ro
+234,Router Wi-Fi HyperX V1,174,2085.92,16,Distribuitor Central,comenzi@depozit.ro
+364,Sursa PC Corsair V2,38,2442.12,6,Distribuitor Central,comenzi@depozit.ro
+235,Tastatura Logitech V6,77,2773.31,31,Distribuitor Central,comenzi@depozit.ro
+236,RAM Intel V8,44,2032.06,23,Distribuitor Central,comenzi@depozit.ro
+358,Placa Video HP V2,206,365.29,21,Distribuitor Central,comenzi@depozit.ro
+237,Router Wi-Fi TP-Link V4,271,691.61,15,Distribuitor Central,comenzi@depozit.ro
+238,Tastatura AMD V2,205,4421,30,Distribuitor Central,comenzi@depozit.ro
+352,Cablu HDMI Samsung V5,28,1188.07,23,Distribuitor Central,comenzi@depozit.ro
+239,Mouse Gigabyte V3,4,4459.57,6,Distribuitor Central,comenzi@depozit.ro
+240,RAM Gigabyte V3,160,1752.56,16,Distribuitor Central,comenzi@depozit.ro
+362,SSD Razer V9,47,2521.21,18,Distribuitor Central,comenzi@depozit.ro
+241,Router Wi-Fi Samsung V1,201,310.61,30,Distribuitor Central,comenzi@depozit.ro
+242,Mouse Gigabyte V7,90,1510.13,14,Distribuitor Central,comenzi@depozit.ro
+372,Placa Video Intel V1,2,2678.84,12,Distribuitor Central,comenzi@depozit.ro
+243,Cooler Kingston V3,234,593.35,34,Distribuitor Central,comenzi@depozit.ro
+244,Sursa PC ASUS V5,190,3662.13,22,Distribuitor Central,comenzi@depozit.ro
+366,Router Wi-Fi Razer V7,211,2026.69,16,Distribuitor Central,comenzi@depozit.ro
+245,Placa Video Lenovo V9,223,2295.57,7,Distribuitor Central,comenzi@depozit.ro
+246,Tastatura Samsung V5,184,4265.29,10,Distribuitor Central,comenzi@depozit.ro
+360,RAM Razer V3,241,536.34,15,Distribuitor Central,comenzi@depozit.ro
+247,SSD Corsair V4,5,3802.26,9,Distribuitor Central,comenzi@depozit.ro
+248,Mouse Gigabyte V9,300,184.3,31,Distribuitor Central,comenzi@depozit.ro
+370,Sursa PC Gigabyte V7,139,1125.09,22,Distribuitor Central,comenzi@depozit.ro
+249,Laptop Sony V3,107,826.09,24,Distribuitor Central,comenzi@depozit.ro
+250,Sursa PC HP V3,238,1648.88,28,Distribuitor Central,comenzi@depozit.ro
+380,Cablu HDMI Dell V3,59,2537.3,30,Distribuitor Central,comenzi@depozit.ro
+251,Sursa PC Corsair V8,253,1064.5,24,Distribuitor Central,comenzi@depozit.ro
+252,Casti HyperX V8,221,3057.21,33,Distribuitor Central,comenzi@depozit.ro
+374,RAM Corsair V1,157,1065.21,9,Distribuitor Central,comenzi@depozit.ro
+253,Cooler AMD V8,224,2270.54,29,Distribuitor Central,comenzi@depozit.ro
+254,Incarcator Razer V4,158,249.03,30,Distribuitor Central,comenzi@depozit.ro
+368,Laptop ASUS V3,87,3279.44,22,Distribuitor Central,comenzi@depozit.ro
+255,SSD Dell V6,286,3832.48,22,Distribuitor Central,comenzi@depozit.ro
+257,Incarcator ASUS V4,209,4188.17,31,Distribuitor Central,comenzi@depozit.ro
+259,Laptop Corsair V1,186,3564.34,15,Distribuitor Central,comenzi@depozit.ro
+261,SSD AMD V1,17,982.21,33,Distribuitor Central,comenzi@depozit.ro
+263,Mouse Logitech V4,252,296.69,18,Distribuitor Central,comenzi@depozit.ro
+265,Sursa PC Razer V5,12,1093.93,18,Distribuitor Central,comenzi@depozit.ro
+267,RAM Gigabyte V9,16,210.25,22,Distribuitor Central,comenzi@depozit.ro
+269,Casti Lenovo V2,199,613.34,29,Distribuitor Central,comenzi@depozit.ro
+271,SSD Kingston V3,23,3496.21,30,Distribuitor Central,comenzi@depozit.ro
+273,Laptop Sony V5,299,2138.2,21,Distribuitor Central,comenzi@depozit.ro
+275,Laptop HyperX V2,234,3348.74,30,Distribuitor Central,comenzi@depozit.ro
+277,Router Wi-Fi Gigabyte V5,14,368.99,30,Distribuitor Central,comenzi@depozit.ro
+279,Placa Video HyperX V5,237,762.4,19,Distribuitor Central,comenzi@depozit.ro
+281,Incarcator HyperX V1,214,1644.45,7,Distribuitor Central,comenzi@depozit.ro
+283,Mouse Corsair V6,32,2728.85,16,Distribuitor Central,comenzi@depozit.ro
+285,RAM Samsung V7,142,4322.93,15,Distribuitor Central,comenzi@depozit.ro
+287,Cablu HDMI Lenovo V8,157,3127.5,11,Distribuitor Central,comenzi@depozit.ro
+289,Sursa PC AMD V2,193,3010.26,30,Distribuitor Central,comenzi@depozit.ro
+291,Sursa PC Lenovo V3,144,559.31,30,Distribuitor Central,comenzi@depozit.ro
+293,Cooler Samsung V8,96,2759.59,30,Distribuitor Central,comenzi@depozit.ro
+295,Router Wi-Fi Intel V2,46,2033.14,9,Distribuitor Central,comenzi@depozit.ro
+297,Monitor HP V3,46,3743.79,18,Distribuitor Central,comenzi@depozit.ro
+299,RAM Sony V5,7,2863.23,32,Distribuitor Central,comenzi@depozit.ro
+301,Placa Video Razer V3,182,3793.75,10,Distribuitor Central,comenzi@depozit.ro
+303,Cablu HDMI Kingston V4,44,2248.7,29,Distribuitor Central,comenzi@depozit.ro
+305,Router Wi-Fi Kingston V7,44,723.99,14,Distribuitor Central,comenzi@depozit.ro
+307,Sursa PC Samsung V6,12,2324.69,17,Distribuitor Central,comenzi@depozit.ro
+309,Mouse Logitech V5,249,1128.49,35,Distribuitor Central,comenzi@depozit.ro
+311,Monitor AMD V9,176,2245.71,19,Distribuitor Central,comenzi@depozit.ro
+313,Tastatura Logitech V5,260,1296.58,20,Distribuitor Central,comenzi@depozit.ro
+315,Router Wi-Fi Intel V6,297,2534.75,6,Distribuitor Central,comenzi@depozit.ro
+317,Cablu HDMI Dell V2,210,1688.79,9,Distribuitor Central,comenzi@depozit.ro
+319,RAM Logitech V1,3,3620.79,6,Distribuitor Central,comenzi@depozit.ro
+321,Cooler Samsung V3,170,2677.86,17,Distribuitor Central,comenzi@depozit.ro
+323,Tastatura Samsung V6,14,2632.9,26,Distribuitor Central,comenzi@depozit.ro
+325,Cooler AMD V3,215,677.77,21,Distribuitor Central,comenzi@depozit.ro
+327,SSD Samsung V7,113,1855.54,9,Distribuitor Central,comenzi@depozit.ro
+329,RAM Corsair V9,259,2371.77,15,Distribuitor Central,comenzi@depozit.ro
+331,Stick USB Lenovo V5,150,1266.34,24,Distribuitor Central,comenzi@depozit.ro
+333,SSD Samsung V8,156,1305.74,16,Distribuitor Central,comenzi@depozit.ro
+335,Router Wi-Fi HP V3,12,369.45,14,Distribuitor Central,comenzi@depozit.ro
+337,Cablu HDMI Sony V9,82,2776.31,27,Distribuitor Central,comenzi@depozit.ro
+339,Casti Logitech V2,259,465.94,18,Distribuitor Central,comenzi@depozit.ro
+341,Hard Disk Extern Sony V8,167,1455.44,20,Distribuitor Central,comenzi@depozit.ro
+343,Stick USB Sony V1,247,3971.87,34,Distribuitor Central,comenzi@depozit.ro
+344,Monitor Sony V1,284,850.61,31,Distribuitor Central,comenzi@depozit.ro
+345,Sursa PC Dell V5,20,2562.31,33,Distribuitor Central,comenzi@depozit.ro
+346,Mouse Sony V6,292,2366.57,14,Distribuitor Central,comenzi@depozit.ro
+347,Hard Disk Extern Razer V9,76,1498.12,19,Distribuitor Central,comenzi@depozit.ro
+349,Cablu HDMI TP-Link V4,217,3724.05,10,Distribuitor Central,comenzi@depozit.ro
+350,RAM Samsung V2,111,4417.86,17,Distribuitor Central,comenzi@depozit.ro
+351,SSD Samsung V4,125,2018.61,5,Distribuitor Central,comenzi@depozit.ro
+353,Laptop Lenovo V4,244,1391.03,6,Distribuitor Central,comenzi@depozit.ro
+355,Placa Video Sony V5,128,4308.76,16,Distribuitor Central,comenzi@depozit.ro
+357,RAM Sony V8,140,3431.94,29,Distribuitor Central,comenzi@depozit.ro
+359,Cooler ASUS V1,289,921.67,31,Distribuitor Central,comenzi@depozit.ro
+361,Casti Lenovo V8,235,3641.98,7,Distribuitor Central,comenzi@depozit.ro
+363,Placa Video HP V5,9,3676.79,28,Distribuitor Central,comenzi@depozit.ro
+365,Tastatura Sony V2,180,1848.77,34,Distribuitor Central,comenzi@depozit.ro
+367,Hard Disk Extern Sony V7,5,2946.1,17,Distribuitor Central,comenzi@depozit.ro
+369,Casti Dell V1,10,2091.57,29,Distribuitor Central,comenzi@depozit.ro
+371,Laptop Razer V5,68,159.49,11,Distribuitor Central,comenzi@depozit.ro
+373,SSD TP-Link V1,217,1983.75,12,Distribuitor Central,comenzi@depozit.ro
+375,Hard Disk Extern Lenovo V6,187,1077.51,23,Distribuitor Central,comenzi@depozit.ro
+377,Cooler Sony V3,278,225.28,25,Distribuitor Central,comenzi@depozit.ro
+379,Cablu HDMI Intel V3,152,3824.29,29,Distribuitor Central,comenzi@depozit.ro
+381,Incarcator Gigabyte V9,139,926.97,9,Distribuitor Central,comenzi@depozit.ro
+383,Incarcator Kingston V1,26,3431.21,32,Distribuitor Central,comenzi@depozit.ro
+384,Sursa PC Kingston V9,181,1374.8,11,Distribuitor Central,comenzi@depozit.ro
+386,Router Wi-Fi AMD V4,131,1793.89,27,Distribuitor Central,comenzi@depozit.ro
+388,Laptop HyperX V5,270,2105.03,16,Distribuitor Central,comenzi@depozit.ro
+390,Incarcator Logitech V4,9,2496.6,28,Distribuitor Central,comenzi@depozit.ro
+392,Cooler Dell V4,192,1169.11,20,Distribuitor Central,comenzi@depozit.ro
+394,Sursa PC Gigabyte V8,287,4456.6,10,Distribuitor Central,comenzi@depozit.ro
+396,Incarcator Razer V4,11,995.96,7,Distribuitor Central,comenzi@depozit.ro
+398,Tastatura Logitech V9,30,2389.44,22,Distribuitor Central,comenzi@depozit.ro
+399,Cablu HDMI Gigabyte V5,225,3630.66,5,Distribuitor Central,comenzi@depozit.ro
+400,Hard Disk Extern Razer V2,10,1095.75,34,Distribuitor Central,comenzi@depozit.ro
