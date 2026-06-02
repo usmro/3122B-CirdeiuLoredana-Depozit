@@ -20,6 +20,7 @@ public:
     void incarcaCSV(std::string fisier);
     void salveazaCSV(std::string fisier);
     void afiseazaTranzactii() const;
+    void cautaDupaNume(std::string textCautat) const;
     void afiseazaStatistici() const;
     void exportaRaportHTML(std::string fisier) const;
 };

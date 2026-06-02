@@ -105,6 +105,13 @@ int main() {
             else if (opt == 5) {
                 d.afiseazaTranzactii();
             }
+            else if (opt == 6) {
+                std::string text;
+                std::cout << "Introduceti textul pentru cautare: ";
+                std::cin.ignore(); // Curăță buffer-ul de la cin-ul anterior
+                std::getline(std::cin, text); // Folosim getline pentru a citi și spații (ex: "Mouse Wireless")
+                d.cautaDupaNume(text);
+            }
             else if (opt == 7) {
                 d.afiseazaStatistici();
             }

@@ -255,3 +255,33 @@ void Depozit::exportaRaportHTML(std::string fisier) const {
     h << "</tbody>\n</table>\n</body>\n</html>\n";
     h.close();
 }
+
+void Depozit::cautaDupaNume(std::string textCautat) const {
+    std::cout << "\n\033[35m\033[1m==================================================\n";
+    std::cout << "          REZULTATE CAUTARE: \"" << textCautat << "\"\n";
+    std::cout << "==================================================\033[0m\n";
+
+    // Convertim textul căutat în litere mici
+    std::string textCautatLower = textCautat;
+    std::transform(textCautatLower.begin(), textCautatLower.end(), textCautatLower.begin(), ::tolower);
+
+    bool gasit = false;
+    for (const auto& x : produse) {
+        std::string numeProdusLower = x.second.getNume();
+        std::transform(numeProdusLower.begin(), numeProdusLower.end(), numeProdusLower.begin(), ::tolower);
+
+        // Verificăm dacă fragmentul căutat se află în numele produsului
+        if (numeProdusLower.find(textCautatLower) != std::string::npos) {
+            std::cout << "  ID: " << x.second.getId()
+                << " | Nume: " << x.second.getNume()
+                << " | Stoc: " << x.second.getCantitate()
+                << " | Pret: " << x.second.getPret() << " RON\n";
+            gasit = true;
+        }
+    }
+
+    if (!gasit) {
+        std::cout << "  \033[31mNu s-a gasit niciun produs care sa contina acest text.\033[0m\n";
+    }
+    std::cout << "\033[35m--------------------------------------------------\033[0m\n";
+}
