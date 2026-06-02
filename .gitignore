@@ -1,0 +1,16 @@
+# Fișiere temporare și directoare generate de Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.obj
+*.log
+*.tlog
+*.ilk
+*.pdb
+*.idb
+*.exe
+*.recipe
+*.sdf
+*.suo
+*.user

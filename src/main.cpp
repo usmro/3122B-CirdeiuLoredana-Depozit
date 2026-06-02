@@ -50,17 +50,23 @@ int main() {
 
     int opt;
     do {
-        std::cout << YELLOW << "==================================================\n" << RESET;
-        std::cout << BLUE << BOLD << "        SISTEM MONITORIZARE STOCURI DEPOZIT       \n" << RESET;
-        std::cout << YELLOW << "==================================================\n" << RESET;
-        std::cout << "  [" << CYAN << "1" << RESET << "] Raport produse sub pragul de alerta\n";
-        std::cout << "  [" << CYAN << "2" << RESET << "] Sugestii de reaprovizionare (Sortate)\n";
-        std::cout << "  [" << CYAN << "3" << RESET << "] Inregistreaza Vanzare (Iesire stoc)\n";
-        std::cout << "  [" << CYAN << "4" << RESET << "] Inregistreaza Restock (Intrare stoc)\n";
-        std::cout << "  [" << CYAN << "5" << RESET << "] Vizualizare istoric complet tranzactii\n";
-        std::cout << "  [" << RED << "0" << RESET << "] Salvare date si Inchidere aplicatie\n";
-        std::cout << YELLOW << "--------------------------------------------------\n" << RESET;
-        std::cout << BOLD << " Selectati o optiune: " << RESET;
+        // Versiune curată care nu dă erori de encodare în CMD
+        std::cout << "\n\033[30m\033[46m  == SISTEM GESTIUNE DEPOZIT v1.2 ==  \033[0m";
+        std::cout << "  \033[90m[ Sesiune Activa ]\033[0m\n";
+
+        std::cout << "\033[36m============================================================\033[0m\n";
+        std::cout << "  \033[1mOPTIUNI DISPONIBILE:\033[0m\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m1\033[0m] Raport produse sub prag\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m2\033[0m] Recomandari reaprovizionare\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m3\033[0m] Inregistreaza Vanzare (Iesire stoc)\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m4\033[0m] Inregistreaza Restock (Intrare stoc)\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m5\033[0m] Vizualizare istoric tranzactii\n";
+        std::cout << "  \033[36m|\033[0m  [\033[92m6\033[0m] Cautare produs dupa nume (partial)\n"; // Am scos ț-ul ca să nu dea caractere ciudate
+        std::cout << "  \033[36m|----------------------------------------------------------|\033[0m\n";
+        std::cout << "  \033[36m|\033[0m  [\033[91m0\033[0m] Salvare date si Iesire securizata\n";
+        std::cout << "\033[36m============================================================\033[0m\n";
+        std::cout << " Cautati o optiune din lista de mai sus.\n";
+        std::cout << " \033[1mComanda dumneavoastra >>\033[0m ";
         std::cin >> opt;
 
         // Validare input numeric greșit
