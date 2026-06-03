@@ -51,7 +51,7 @@ int main() {
     int opt;
     do {
         // Versiune curată care nu dă erori de encodare în CMD
-        std::cout << "\n\033[30m\033[46m  == SISTEM GESTIUNE DEPOZIT v1.2 ==  \033[0m";
+        std::cout << "\n\033[30m\033[46m  == NEXUS TECH STORE v1.2 ==  \033[0m";
         std::cout << "  \033[90m[ Sesiune Activa ]\033[0m\n";
 
         std::cout << "\033[36m============================================================\033[0m\n";
